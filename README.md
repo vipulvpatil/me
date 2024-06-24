@@ -13,3 +13,13 @@ This is a Hugo based static website that I intend to release eventually. For now
 ```
 
 For exact content of all the above files check [this](https://github.com/vipulvpatil/me/commit/homepage) commit.
+
+* To get PostCSS working do the following.
+
+```
+sudo snap install node --classic # install node if not installed
+npm install postcss-cli autoprefixer
+```
+
+For code changes check [this](https://github.com/vipulvpatil/me/commit/postcss)
+
