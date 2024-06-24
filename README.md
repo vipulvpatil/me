@@ -18,8 +18,15 @@ For exact content of all the above files check [this](https://github.com/vipulvp
 
 ```
 sudo snap install node --classic # install node if not installed
-npm install postcss-cli autoprefixer
+npm install -D postcss-cli autoprefixer
 ```
 
 For code changes check [this](https://github.com/vipulvpatil/me/commit/postcss)
 
+* Finally I added tailwind to eht project.
+
+```
+npm install -D tailwindcss
+```
+
+For code changes check [this](https://github.com/vipulvpatil/me/commit/tailwind)
