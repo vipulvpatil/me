@@ -21,5 +21,6 @@
 go.work
 go.work.sum
 
-# Let's not commit the /public folder
+# Let's not commit the following folder
 public/
+node_modules/

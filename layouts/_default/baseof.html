@@ -5,6 +5,8 @@
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
+    {{ $style := resources.Get "css/main.css" | resources.PostCSS  (dict "config" "./postcss.config.js") | resources.Minify | resources.Fingerprint "sha512"  }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"> 
   </head>
   <body>
     {{ block "main" . }}
