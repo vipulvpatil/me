@@ -1,0 +1,15 @@
+p {
+  font-size: 20px
+}
+
+::-moz-placeholder {
+  color: gray;
+}
+
+::placeholder {
+  color: gray;
+}
+
+h1 {
+  color: darkblue;
+}

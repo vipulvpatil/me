@@ -1,7 +1,4 @@
-p {
-  font-size: 20px
-}
-
-::placeholder {
-  color: gray;
-}
+@import 'tailwindcss/base';
+@import '/assets/css/other.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
