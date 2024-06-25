@@ -21,6 +21,7 @@
 go.work
 go.work.sum
 
-# Let's not commit the following folder
+# Let's not commit the following folders
 public/
 node_modules/
+/resources/_gen/
