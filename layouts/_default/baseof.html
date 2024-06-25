@@ -7,8 +7,20 @@
     {{ end }}</title>
     {{ partialCached "css.html" . }}
   </head>
-  <body>
+  <body class="font-quicksand text-gray-800">
     {{ block "header" . }}
+      <section class="w-full p-2 flex justify-between">
+        <section class="flex text-4xl">
+          <div>Vipul</div><div class="font-bold">V</div><div>Patil</div>
+        </section>
+        <section class="flex text-2xl font-bold justify-between w-[480px]">
+          <div>Home</div>
+          <div>Blog</div>
+          <div>About</div>
+          <div>Work</div>
+          <div>Interests</div>
+        </section>
+      </section>
     {{ end }}
     {{ block "main" . }}
       This can be replaced
