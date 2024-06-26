@@ -11,6 +11,7 @@ draft = true
 {{< mytvopts >}}Relaxing with family{{< /mytvopts >}}
 {{< mytvopts >}}Sound asleep{{< /mytvopts >}}
 {{< /mytv >}}
+{{< infobar >}}
 
 # Hi, I am Vipul 
 {.columnized}
