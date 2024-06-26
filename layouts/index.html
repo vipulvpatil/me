@@ -1,6 +1,7 @@
 {{ define "main" }}
   <main aria-role="main" class="w-[720px] text-center flex m-auto justify-center">
     <div class="homepage-content flex-col">
+      {{ partial "mytv.html" .}}
       {{ .Content }}
     </div>
     <div>
@@ -9,4 +10,23 @@
       {{ end }}
     </div>
   </main>
+{{ end }}
+
+{{ define "partials/mytv.html"}}
+  <div class="blackbox">
+    <div class="greybox">
+      <div class="tv-title">{{ .Params.activity.title }}</div>
+      <div class="tv-items">
+        {{ range .Params.activity.list}}
+          {{ partial "mytv-items.html" .}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
+
+{{ define "partials/mytv-items.html"}}
+  <div class="tv-item">
+    {{ . }}
+  </div>
 {{ end }}

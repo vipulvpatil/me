@@ -2,6 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
+[params]
+  info = 'something else'
+
 [menus]
   [[menus.main]]
     name = 'Home'

@@ -2,15 +2,12 @@
 title = 'Home'
 date = 2024-06-24T11:37:51Z
 draft = true
+[params]
+  [activity]
+    title = 'Vipul is currently'
+    list = ['Playing video games', 'Writing code', 'Watching Football', 'Relaxing with family', 'Sound asleep']
 +++
 
-{{< mytv title="Vipul is currently" >}}
-{{< mytvopts >}}Playing video games{{< /mytvopts >}}
-{{< mytvopts >}}Writing code{{< /mytvopts >}}
-{{< mytvopts >}}Watching Football{{< /mytvopts >}}
-{{< mytvopts >}}Relaxing with family{{< /mytvopts >}}
-{{< mytvopts >}}Sound asleep{{< /mytvopts >}}
-{{< /mytv >}}
 {{< infobar >}}
 
 # Hi, I am Vipul 
