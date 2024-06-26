@@ -14,6 +14,8 @@ body {
   display: flex;
   margin: auto;
   border-radius: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .greybox {
@@ -44,4 +46,28 @@ body {
 
 .tv-item:before {
   content:"→\00a0\00a0";
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.main-p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.columnized {
+  width: 34rem;
+  margin: auto;
 }
