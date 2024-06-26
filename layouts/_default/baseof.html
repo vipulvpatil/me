@@ -13,13 +13,7 @@
         <section class="flex text-4xl">
           <div>Vipul</div><div class="font-bold">V</div><div>Patil</div>
         </section>
-        <section class="flex text-2xl font-bold justify-between w-[480px]">
-          <div>Home</div>
-          <div>Blog</div>
-          <div>About</div>
-          <div>Work</div>
-          <div>Interests</div>
-        </section>
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
       </section>
     {{ end }}
     {{ block "main" . }}
