@@ -1,0 +1,8 @@
+{{ block "header" . }}
+  <section class="w-full p-2 flex justify-between">
+    <section class="flex text-4xl">
+      <div>Vipul</div><div class="font-bold">V</div><div>Patil</div>
+    </section>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </section>
+{{ end }}

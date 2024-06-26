@@ -8,21 +8,10 @@
     {{ partialCached "css.html" . }}
   </head>
   <body class="font-quicksand">
-    {{ block "header" . }}
-      <section class="w-full p-2 flex justify-between">
-        <section class="flex text-4xl">
-          <div>Vipul</div><div class="font-bold">V</div><div>Patil</div>
-        </section>
-        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-      </section>
-    {{ end }}
+    {{ partial "header.html" . }}
     {{ block "main" . }}
-      This can be replaced
+      This should be replaced by every page
     {{ end }}
-    {{ block "footer" . }}
-      <section class="w-full pt-8 pb-4 px-4 flex justify-between text-sm text-center padding-auto">
-        <div>&copy; Vipul Patil</div> <div>Powered by&nbsp;<a class="underline" href="https://gohugo.io/">Hugo</a></div>
-      </section>
-    {{ end }}
+    {{ partial "footer.html" . }}
   </body>
 </html>
