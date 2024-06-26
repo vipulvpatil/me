@@ -1,7 +1,8 @@
 {{ define "main" }}
   <main aria-role="main" class="w-[720px] text-center flex m-auto justify-center">
     <div class="homepage-content flex-col">
-      {{ partial "mytv.html" .}}
+      {{ partial "mytv.html" . }}
+      {{ partial "infobar.html" .Site.Params.info }}
       {{ .Content }}
     </div>
     <div>
@@ -28,5 +29,15 @@
 {{ define "partials/mytv-items.html"}}
   <div class="tv-item">
     {{ . }}
+  </div>
+{{ end }}
+
+{{ define "partials/infobar.html"}}
+  <div class="infobar">
+    {{ range . }}
+      <a href="{{ .url }}" target="{{ .target }}">
+        <img src="{{ .icon }}" width="26px" height="24px"/>
+      </a>
+    {{ end }}
   </div>
 {{ end }}

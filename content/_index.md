@@ -8,8 +8,6 @@ draft = true
     list = ['Playing video games', 'Writing code', 'Watching Football', 'Relaxing with family', 'Sound asleep']
 +++
 
-{{< infobar >}}
-
 # Hi, I am Vipul 
 {.columnized}
 
