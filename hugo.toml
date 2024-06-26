@@ -23,3 +23,9 @@ title = 'My New Hugo Site'
     name = 'Interests'
     pageRef = '/interest'
     weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
