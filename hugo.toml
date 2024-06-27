@@ -4,29 +4,29 @@ title = 'My New Hugo Site'
 
 [params]
   [[params.info]]
-    url = '/work'
+    url = 'work'
     target = '_self'
-    icon = '/icons/briefcase.svg'
+    icon = 'icons/briefcase.svg'
   [[params.info]]
-    url='mailto:vipulvpatil@gmail.com'
-    target = '_blank'
-    icon = '/icons/send.svg'
+    url = 'mailto:vipulvpatil@gmail.com'
+    target = '_self'
+    icon = 'icons/send.svg'
   [[params.info]]
-    url='http://twitter.com/vipulvpatil'
+    url = 'http://twitter.com/vipulvpatil'
     target = '_blank'
-    icon = '/icons/twitter.svg'
+    icon = 'icons/twitter.svg'
   [[params.info]]
-    url='http://github.com/vipulvpatil'
+    url = 'http://github.com/vipulvpatil'
     target = '_blank'
-    icon = '/icons/github.svg'
+    icon = 'icons/github.svg'
   [[params.info]]
-    url='http://instagram.com/vipulvpatil'
+    url = 'http://instagram.com/vipulvpatil'
     target = '_blank'
-    icon = '/icons/instagram.svg'
+    icon = 'icons/instagram.svg'
   [[params.info]]
-    url='http://linkedin.com/in/vipulvpatil'
+    url = 'http://linkedin.com/in/vipulvpatil'
     target = '_blank'
-    icon = '/icons/linkedin.svg'
+    icon = 'icons/linkedin.svg'
 
 [menus]
   [[menus.main]]

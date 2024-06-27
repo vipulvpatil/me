@@ -36,7 +36,7 @@
   <div class="infobar">
     {{ range . }}
       <a href="{{ .url }}" target="{{ .target }}">
-        <img src="{{ .icon }}" width="26px" height="24px"/>
+        <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
       </a>
     {{ end }}
   </div>
