@@ -1,5 +1,6 @@
 :root {
   --black: #1E1E1E;
+  --content-width: 32rem;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 .blackbox {
   color: white;
   background-color: var(--black);
-  width: 32rem;
+  width: var(--content-width);
   height: 22rem;
   display: flex;
   margin: auto;
@@ -67,7 +68,7 @@ h2 {
 }
 
 .columnized {
-  width: 34rem;
+  width: var(--content-width);
   margin: auto;
 }
 
@@ -79,8 +80,15 @@ h2 {
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
   display: flex;
-  margin: auto;
+  margin: 2rem auto 2rem 0;
   border-radius: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+}
+
+.homepage-content {
+  width: var(--content-width);
+  margin: auto;
+}
+
+a {
+  text-decoration: underline;
 }

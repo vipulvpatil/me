@@ -3,7 +3,9 @@
     <div class="homepage-content flex-col">
       {{ partial "mytv.html" . }}
       {{ partial "infobar.html" .Site.Params.info }}
-      {{ .Content }}
+      <div class="text-left">
+        {{ .Content }}
+      </div>
     </div>
     <div>
       {{ range first 10 .Site.RegularPages }}
