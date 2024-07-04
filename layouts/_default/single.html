@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main aria-role="main" class="w-full text-center">
+  <main aria-role="main">
     <header class="homepage-header">
       <h1>{{ .Title }}</h1>
       {{ with .Params.subtitle }}
@@ -7,7 +7,6 @@
       {{ end }}
     </header>
     <div class="homepage-content">
-      This is a single page
       {{ .Content }}
     </div>
     <div>

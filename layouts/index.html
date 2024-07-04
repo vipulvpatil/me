@@ -1,11 +1,9 @@
 {{ define "main" }}
-  <main aria-role="main" class="w-[720px] text-center flex m-auto justify-center">
-    <div class="homepage-content flex-col">
+  <main aria-role="main">
+    <div class="homepage-content">
       {{ partial "mytv.html" . }}
       {{ partial "infobar.html" .Site.Params.info }}
-      <div class="text-left">
-        {{ .Content }}
-      </div>
+      {{ .Content }}
     </div>
     <div>
       {{ range first 10 .Site.RegularPages }}

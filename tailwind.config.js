@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'quicksand': ['Quicksand']
+      'quicksand': ['Quicksand'],
+      'titilliumweb': ['TitilliumWeb']
     },
   },
   plugins: [],
