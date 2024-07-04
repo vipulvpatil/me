@@ -1,13 +1,41 @@
 :root {
   --black: #1E1E1E;
   --content-width: 32rem;
+  --header-height: 4rem;
+  --footer-height: 4rem;
+  --content-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+html {
+  height: 100%;
 }
 
 body {
+  height: 100%;
   color: var(--black);
   font-weight: normal;
   font-size: 1.1rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header{
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  max-height: var(--header-height);
+}
+
+.main-footer{
+  width: 100%;
+  padding: 2rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  max-height: var(--footer-height);
 }
 
 .blackbox {
@@ -85,7 +113,8 @@ h2 {
 
 main {
   width: var(--content-width);
-  margin: auto;
+  margin: 0 auto;
+  min-height: var(--content-height) !important;
 }
 
 a {
