@@ -30,25 +30,21 @@ title = 'My New Hugo Site'
 
 [menus]
   [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
     name = 'Blog'
     pageRef = '/blog'
-    weight = 20
+    weight = 10
   [[menus.main]]
     name = 'About'
     pageRef = '/about'
-    weight = 30
+    weight = 20
   [[menus.main]]
     name = 'Work'
     pageRef = '/work'
-    weight = 40
+    weight = 30
   [[menus.main]]
     name = 'Interests'
     pageRef = '/interest'
-    weight = 50
+    weight = 40
 
 [markup]
   [markup.goldmark]

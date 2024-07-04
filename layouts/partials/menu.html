@@ -2,7 +2,7 @@
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav class="flex text-2xl font-bold justify-between w-[480px]">
+  <nav class="flex justify-between w-[240px] mt-[24px] text-sm">
     {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
   </nav>
 {{- end }}
