@@ -1,3 +1,8 @@
+.neswire {
+  height: 70px;
+  margin: auto;
+}
+
 .nescontroller {
   --total-width: 480px;
   --nes-gray: rgba(255, 255, 255, 0.35);

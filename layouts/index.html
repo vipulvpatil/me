@@ -14,9 +14,10 @@
     <script>
       const canvas = document.getElementById("neswire");
       const ctx = canvas.getContext("2d");
+      ctx.lineWidth = 10
       ctx.beginPath();
-      ctx.moveTo(290, 0);
-      ctx.bezierCurveTo(300, 50, 40, 10, 290, 150);
+      ctx.moveTo(150, -5);
+      ctx.bezierCurveTo(300, 100, 0, 10, 150, 155);
       ctx.stroke();
       </script>
   </main>
