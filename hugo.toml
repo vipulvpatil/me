@@ -27,6 +27,31 @@ title = 'My New Hugo Site'
     url = 'http://linkedin.com/in/vipulvpatil'
     target = '_blank'
     icon = 'icons/linkedin.svg'
+  [params.controller]
+    [params.controller.a]
+      url = 'work'
+      target = '_self'
+      icon = 'icons/briefcase.svg'
+    [params.controller.b]
+      url = 'mailto:vipulvpatil@gmail.com'
+      target = '_self'
+      icon = 'icons/send.svg'
+    [params.controller.up]
+      url = 'http://twitter.com/vipulvpatil'
+      target = '_blank'
+      icon = 'icons/twitter.svg'
+    [params.controller.right]
+      url = 'http://github.com/vipulvpatil'
+      target = '_blank'
+      icon = 'icons/github.svg'
+    [params.controller.down]
+      url = 'http://instagram.com/vipulvpatil'
+      target = '_blank'
+      icon = 'icons/instagram.svg'
+    [params.controller.left]
+      url = 'http://linkedin.com/in/vipulvpatil'
+      target = '_blank'
+      icon = 'icons/linkedin.svg'
 
 [menus]
   [[menus.main]]

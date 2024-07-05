@@ -3,6 +3,7 @@
     <div class="homepage-content">
       {{ partial "mytv.html" . }}
       {{ partial "infobar.html" .Site.Params.info }}
+      {{ partial "nescontroller.html" .Site.Params.controller }}
       {{ .Content }}
     </div>
     <div>
