@@ -121,3 +121,7 @@ main {
 a {
   text-decoration: underline;
 }
+
+a:link.title {
+  text-decoration: none;
+}

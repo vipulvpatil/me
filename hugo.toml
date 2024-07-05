@@ -1,6 +1,6 @@
 baseURL = 'https://vipulvpatil.github.io/me/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Vipul V Patil'
 
 [params]
   [params.controller]
