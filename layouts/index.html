@@ -5,7 +5,6 @@
       <canvas id="neswire" class="neswire">
       </canvas>
       {{ partial "nescontroller.html" .Site.Params.controller }}
-      {{ .Content }}
     </div>
     <div>
       {{ range first 10 .Site.RegularPages }}
@@ -17,7 +16,7 @@
       const ctx = canvas.getContext("2d");
       ctx.beginPath();
       ctx.moveTo(290, 0);
-      ctx.bezierCurveTo(300, 50, 40, 10, 240, 150);
+      ctx.bezierCurveTo(300, 50, 40, 10, 290, 150);
       ctx.stroke();
       </script>
   </main>
@@ -26,7 +25,10 @@
 {{ define "partials/mytv.html"}}
   <div class="blackbox">
     <div class="greybox">
-      <div class="tv-title">{{ .Params.activity.title }}</div>
+      <div>
+        <div class="tv-title">{{ .Params.activity.title }}</div>
+        <div class="tv-subtitle">{{ .Content }}</div>
+      </div>
       <div class="tv-items">
         {{ range .Params.activity.list}}
           {{ partial "mytv-items.html" .}}

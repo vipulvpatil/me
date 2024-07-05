@@ -59,24 +59,33 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   border-radius: 1rem;
-  padding: 1rem 0;
+  padding-top: 0.5rem;
 }
 
 .tv-title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+.tv-subtitle {
+  text-align: center;
+  width: 400px;
+  margin: auto;
 }
 
 .tv-items {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: auto auto 0 auto;
+  flex-grow: 1;
+  justify-content: center;
+
 }
 
 .tv-item {
-  padding: 0.5rem;
+  font-size: 1rem;
+  padding: 0.25rem;
   text-align: left;
 }
 
@@ -109,7 +118,6 @@ h2 {
 }
 
 main {
-  margin: 0 auto;
   min-height: var(--content-height) !important;
 }
 
