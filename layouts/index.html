@@ -12,14 +12,15 @@
       {{ end }}
     </div>
     <script>
-      const canvas = document.getElementById("neswire");
-      const ctx = canvas.getContext("2d");
+      const canvas = document.getElementById("neswire")
+      const ctx = canvas.getContext("2d")
       ctx.lineWidth = 10
-      ctx.beginPath();
-      ctx.moveTo(150, -5);
-      ctx.bezierCurveTo(300, 100, 0, 10, 150, 155);
-      ctx.stroke();
-      </script>
+      ctx.strokeStyle = "#5E5E5E"
+      ctx.beginPath()
+      ctx.moveTo(150, -5)
+      ctx.bezierCurveTo(300, 100, 0, 10, 150, 155)
+      ctx.stroke()
+    </script>
   </main>
 {{ end }}
 
