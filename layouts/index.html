@@ -2,7 +2,8 @@
   <main aria-role="main">
     <div class="homepage-content">
       {{ partial "mytv.html" . }}
-      {{ partial "infobar.html" .Site.Params.info }}
+      <canvas id="neswire" class="neswire">
+      </canvas>
       {{ partial "nescontroller.html" .Site.Params.controller }}
       {{ .Content }}
     </div>
@@ -11,6 +12,14 @@
         {{ .Render "summary" }}
       {{ end }}
     </div>
+    <script>
+      const canvas = document.getElementById("neswire");
+      const ctx = canvas.getContext("2d");
+      ctx.beginPath();
+      ctx.moveTo(290, 0);
+      ctx.bezierCurveTo(300, 50, 40, 10, 240, 150);
+      ctx.stroke();
+      </script>
   </main>
 {{ end }}
 
@@ -30,15 +39,5 @@
 {{ define "partials/mytv-items.html"}}
   <div class="tv-item">
     {{ . }}
-  </div>
-{{ end }}
-
-{{ define "partials/infobar.html"}}
-  <div class="infobar">
-    {{ range . }}
-      <a href="{{ .url }}" target="{{ .target }}">
-        <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
-      </a>
-    {{ end }}
   </div>
 {{ end }}

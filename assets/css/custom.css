@@ -1,5 +1,6 @@
 :root {
   --black: #1E1E1E;
+  --gray: rgba(255, 255, 255, 0.15);
   --content-width: 680px;
   --content-padding: 2rem;
   --header-height: 4rem;
@@ -49,11 +50,10 @@ body {
   margin: auto;
   border-radius: 0.2rem;
   margin-top: 1rem;
-  margin-bottom: 2rem;
 }
 
 .greybox {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: var(--gray);
   width: calc(100% - var(--content-padding));
   height: calc(100% - var(--content-padding));
   margin: auto;
@@ -97,18 +97,6 @@ h2 {
 }
 
 .infobar {
-  color: white;
-  justify-content: space-evenly;
-  background-color: var(--black);
-  width: 24rem;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
-  display: flex;
-  margin: 2rem auto 2rem 0;
-  border-radius: 0.2rem;
-}
-
-.nescontroller {
   color: white;
   justify-content: space-evenly;
   background-color: var(--black);

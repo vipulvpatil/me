@@ -1,0 +1,102 @@
+.nescontroller {
+  --total-width: 480px;
+  --nes-gray: rgba(255, 255, 255, 0.35);
+  height: 160px;
+  color: white;
+  background-color: var(--black);
+  display: flex;
+  width: fit-content;
+  margin: 0 auto 2rem 0;
+  border-radius: 0.2rem;
+  border: 5px solid var(--nes-gray);
+}
+
+.nescontroller .arrows {
+  width: calc(var(--total-width)/3);
+  display: grid;
+  grid-template-columns: 1fr 34px 34px 34px 1fr;
+  grid-template-rows: repeat(4, 34px) 20px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.nescontroller .arrows .bordered {
+  padding: 4px;
+  /* border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white; */
+  background-color: var(--gray);
+}
+
+.nescontroller .arrows .up {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+
+.nescontroller .arrows .right {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-row-end: 4;
+  grid-column-end: 5;
+}
+
+.nescontroller .arrows .down {
+  grid-row-start: 4;
+  grid-column-start: 3;
+  grid-row-end: 5;
+  grid-column-end: 4;
+}
+
+.nescontroller .arrows .left {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+
+.nescontroller .arrows .middle {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-column-end: 4;
+}
+
+.nescontroller .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(var(--total-width)/3);
+}
+
+.nescontroller .center .section {
+  background-color: var(--gray);
+}
+
+.nescontroller .ab {
+  display: flex;
+  justify-content: space-evenly;
+  width: calc(var(--total-width)/3);
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.nescontroller .ab .ab-button {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: var(--nes-gray);
+}
+
+.nescontroller .ab .ab-button .round-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 2px;
+  background-color: rgba(219, 7, 7, 0.78);
+}

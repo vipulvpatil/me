@@ -1,7 +1,60 @@
 <div class="nescontroller">
-  {{ range . }}
-    <a href="{{ .url }}" target="{{ .target }}">
-      <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
-    </a>
-  {{ end }}
+  <div class="arrows">
+    <div class="up bordered">
+      {{ with .up}}
+      <a href="{{ .url }}" target="{{ .target }}">
+        <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
+      </a>
+      {{ end }}
+    </div>
+    <div class="left bordered">
+      {{ with .left}}
+      <a href="{{ .url }}" target="{{ .target }}">
+        <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
+      </a>
+      {{ end }}
+    </div>
+    <div class="right bordered">
+      {{ with .right}}
+      <a href="{{ .url }}" target="{{ .target }}">
+        <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
+      </a>
+      {{ end }}
+    </div>
+    <div class="down bordered">
+      {{ with .down}}
+      <a href="{{ .url }}" target="{{ .target }}">
+        <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
+      </a>
+      {{ end }}
+    </div>
+    <div class="middle bordered"></div>
+  </div>
+  <div class="center">
+    <div class="bg-slate-100 h-6 section rounded-b-lg"></div>
+    <div class="bg-slate-100 h-6 section rounded-lg"></div>
+    <div class="bg-slate-100 h-6 section rounded-lg"></div>
+    <div class="bg-slate-100 h-8 section rounded-lg"></div>
+    <div class="bg-slate-100 h-6 section rounded-t-lg"></div>
+  </div>
+  <div class="ab">
+    <div class="ab-button">
+      <div class="round-button">
+        {{ with .b}}
+          <a href="{{ .url }}" target="{{ .target }}">
+            <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="ab-button">
+      <div class="round-button">
+        {{ with .a}}
+          <a href="{{ .url }}" target="{{ .target }}">
+            <img src="{{ .icon | relURL }}" width="26px" height="24px"/>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </div>
