@@ -6,6 +6,9 @@
       {{ .Site.Title }}
     {{ end }}</title>
     {{ partialCached "css.html" . }}
+    {{ block "canonical" . }}
+      <link rel="canonical" href="{{ .Permalink }}"/>
+    {{ end }}
   </head>
   <body class="font-titilliumweb">
     {{ partial "header.html" . }}

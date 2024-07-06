@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Vipul V Patil'
 
 [params]
+  mediumRoot = 'https://vipulvpatil.medium.com'
   [params.controller]
     [params.controller.a]
       url = 'work'
