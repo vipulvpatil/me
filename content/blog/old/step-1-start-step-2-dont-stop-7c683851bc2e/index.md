@@ -11,7 +11,7 @@ draft: true
 url: /blog/step-1-start-step-2-dont-stop-7c683851bc2e
 ---
 
-As mentioned in my previous [post](https://vipulvpatil.medium.com/so-i-am-going-to-start-blogging-again-5fbba818462e), I started blogging again. Now I need to ensure that I do not stop. That just means I simply need to keep posting regularly. Sounds simple!
+As mentioned in my previous [post]({{< relref "/blog/old/so-i-am-going-to-start-blogging-again-5fbba818462e" >}}), I started blogging again. Now I need to ensure that I do not stop. That just means I simply need to keep posting regularly. Sounds simple!
 
 Wait a minute, its not that simple. I still need to figure what I am going to post about. I have been thinking about this and there is a lot I want to talk about. But as always, I am thinking who would want to read any of it. If you have met me in person, you would know I am not a man of few words. I love sharing a pointless story that seems to have nothing to do with the ongoing conversation. Tangents are my favorite and and sometimes I don’t seem to need them to switch topics. If that paints me as a bad listener, that is not the case. Let me explain how my mind works.
 

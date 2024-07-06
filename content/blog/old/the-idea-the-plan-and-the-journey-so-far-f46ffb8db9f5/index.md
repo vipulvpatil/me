@@ -11,7 +11,7 @@ draft: true
 url: /blog/the-idea-the-plan-and-the-journey-so-far-f46ffb8db9f5
 ---
 
-In my [previous post](https://vipulvpatil.medium.com/jumping-on-the-ai-bandwagon-d37bc777e456) I talked about my last project [joblead.io](https://joblead.io). It was a small project in itself, but it was part of something bigger. I had been toying with the idea of taking a break as early as mid 2020. The world was on a lockdown that showed no signs of ending and it seemed like a good time to take the plunge. While I was attempting to implement my idea, my employer of the time announced an IPO and I put a pin in my idea. Finally towards the end of 2022, I pulled the trigger.
+In my [previous post]({{< relref "/blog/old/jumping-on-the-ai-bandwagon-d37bc777e456" >}}) I talked about my last project [joblead.io](https://joblead.io). It was a small project in itself, but it was part of something bigger. I had been toying with the idea of taking a break as early as mid 2020. The world was on a lockdown that showed no signs of ending and it seemed like a good time to take the plunge. While I was attempting to implement my idea, my employer of the time announced an IPO and I put a pin in my idea. Finally towards the end of 2022, I pulled the trigger.
 
 ### The origins of the idea
 

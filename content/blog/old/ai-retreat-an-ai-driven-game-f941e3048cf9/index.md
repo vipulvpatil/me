@@ -11,7 +11,7 @@ draft: true
 url: /blog/ai-retreat-an-ai-driven-game-f941e3048cf9
 ---
 
-Two weeks ago, I talked about [delays](https://vipulvpatil.medium.com/delays-and-how-i-handle-them-9e12bb55e93c) in my current project and how I was handling them. Finally the project is done and ready. I did a soft launch last week by putting it on [reddit](https://www.reddit.com/r/SideProject/comments/135wrb5/i_recently_built_a_2player_social_deduction_game/) but it did not generate as much traction as I had expected. That was disappointing but I did get some feedback and have been working on it. I also made a [slack workspace](https://join.slack.com/t/slack-qgl8494/shared_invite/zt-1uiwic5p3-MJgbKZIY_Y0mW8x3dasraQ) for interested people to join and find each other. And now I am launching it again.
+Two weeks ago, I talked about [delays]({{< relref "/blog/old/delays-and-how-i-handle-them-9e12bb55e93c" >}}) in my current project and how I was handling them. Finally the project is done and ready. I did a soft launch last week by putting it on [reddit](https://www.reddit.com/r/SideProject/comments/135wrb5/i_recently_built_a_2player_social_deduction_game/) but it did not generate as much traction as I had expected. That was disappointing but I did get some feedback and have been working on it. I also made a [slack workspace](https://join.slack.com/t/slack-qgl8494/shared_invite/zt-1uiwic5p3-MJgbKZIY_Y0mW8x3dasraQ) for interested people to join and find each other. And now I am launching it again.
 
 The game is titled [AI Retreat](https://airetreat.co/). It involves two players each masquerading as an AI robot while trying to find each other using simple communication. You can find the detailed [story here](https://airetreat.co/story).
 
