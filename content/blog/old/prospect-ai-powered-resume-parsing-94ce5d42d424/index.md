@@ -5,7 +5,7 @@ description: >-
   too soon to call this the age of AI but we are certainly moving…
 date: '2023-09-20T12:30:50.510Z'
 categories: []
-tags: [Side Project', 'Side Hustle', 'AI']
+tags: ['Side Project', 'Side Hustle', 'AI']
 layout: 'imported'
 draft: false
 url: /blog/prospect-ai-powered-resume-parsing-94ce5d42d424
