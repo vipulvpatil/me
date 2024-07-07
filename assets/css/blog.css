@@ -12,6 +12,8 @@
 .blog > p > img {
   margin-top: 50px;
   margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog > h3 {
@@ -40,7 +42,11 @@
   list-style-type: disc;
 }
 
-.blog > ol, ul > li:not(:first-child) {
+.blog > ol > li:not(:first-child) {
+  margin-top: var(--blog-items-mt2);
+}
+
+.blog > ul > li:not(:first-child) {
   margin-top: var(--blog-items-mt2);
 }
 
@@ -48,11 +54,15 @@
   margin-left: var(--list-ml);
 }
 
-blockquote > p {
-  padding: 15px;
+.blog > p > code {
+  /* TODO: use a different monospace font */
   background: #eee;
   border-radius: 5px;
-  text-decoration: none !important;
+}
+
+blockquote > p {
+  border-left: 10px solid var(--color-primary);
+  padding: 15px;
 }
 
 .caption {

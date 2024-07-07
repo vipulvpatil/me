@@ -5,9 +5,9 @@ description: >-
   successful year as a blog post writer. I posted more in the last 12…
 date: '2024-01-23T11:16:22.262Z'
 categories: []
-tags: []
+tags: ['Startup Lessons', 'Bad Ux']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/good-marketing-ruined-by-a-bad-product-my-experience-with-atlys-a6effd9e8dce
 ---
 
@@ -19,7 +19,7 @@ Atlys is a visa application startup. I first came across Atlys around the end of
 
 I downloaded the application and searched for Singapore and a message flashed saying _Visa guaranteed by 15th January_. This was happening on the 1st of January and this seemed a little too long compared to Google Search recommended timeline of 2–3 days. I assumed they were being cautious and adding a few more days. So after some consideration, I decided to start with the application.
 
-![Image needs more work](1__BLa9cCKBgZ2k6Wsd__TcDsg.png)
+![](1__BLa9cCKBgZ2k6Wsd__TcDsg.png)
 
 The application was for 4 people. Myself, my wife and my parents. After adding my details, I added my wife’s and then noticed **the first issue**. They had asked for a passport pickup address which was common for the entire application. Since me and my parents are in different cities, I decided to finish my application before starting with theirs. Next, I connected my Google account instead of manual uploading our trip plans. I assumed they would pick up the flight and hotel bookings from my inbox, **but nothing in the app indicated this**. I made the required payment and was told, my application is in process and once again an ETA of 15th January was clearly shown. I was happy.
 
@@ -33,13 +33,13 @@ Things slowly started falling apart over the next few days. My parents passports
 
 When additional documents were requested, one of the document requested was 6 months bank statement. I received an auto-generated email asking to upload the same within the app. When I tried to do so in the app, the app only allowed taking a picture. How do i take a single picture of a 6 months bank statement. I started realizing the product was not at all as good as it seemed to be.
 
-![Image needs more work](1__JKpIK4P5p8tZ3vdfTnA16g.png)
+![](1__JKpIK4P5p8tZ3vdfTnA16g.png)
 
 From this point onwards, all the flaws in the system (engineering as well as human) became glaring. I contacted customer support to provide the documents they were asking for. And the first thing the customer support person told me was to upload the documents in the app. When I explained it was not possible, they recommended a way by email. Now having worked with various startups over the years, I understand the philosophy of [Doing things that don’t scale](https://paulgraham.com/ds.html) but this seemed a terrible implementation of it. If they knew I could not possibly upload the requested documents via the app, might as well request them by email. Why make the experience so full of friction? After I sent the documents via email, I waited a day but the status within the app did not update. It still said, that I needed to upload required documents. So I called customer support again. They told me that my application was waiting on the required documents, which I had already emailed two days earlier. It became clear to me, that this was more of an engineering failure than a human one. I realised that someone had received my documents and hopefully had attached it to my application but had not updated the system. I can only guess why this happened. Either the person forgot or the system does not have an easy way to update the status on app. The second reason felt much more probable, once I checked my parent’s application. It had been completed in the promised time with the visa issued and passport returned. Although the app still showed that documents were required to be uploaded, even after their visa had been approved and passport had been delivered.
 
 This gave me hope that my visa will come through in a day or two. But that hope was shattered when I found out my application had reached a different center than my parent’s. Once I looked at X (formerly Twitter), I realised all applications at the Chennai center (one where my application was sent) were in the same boat as me. My parent’s application got sent to the Bhubaneshwar center and passed through with minimum hassle. Minimum but not zero. My application which is supposedly complete and submitted still shows incorrect update on app.
 
-![Image needs more work](1__Y__7EPpoAMxk1vg0tCiWT1g.png)
+![](1__Y__7EPpoAMxk1vg0tCiWT1g.png)
 
 In summary, the design and promotion of the app seemed to have been a higher focus for the makers compared to actually getting the product working well.
 
