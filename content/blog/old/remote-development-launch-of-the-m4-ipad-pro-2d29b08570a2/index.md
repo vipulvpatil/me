@@ -7,7 +7,7 @@ date: '2024-05-30T05:25:58.298Z'
 categories: []
 tags: ['Remote Working', 'Development Tools', 'IPad Pro']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/remote-development-launch-of-the-m4-ipad-pro-2d29b08570a2
 ---
 
@@ -42,9 +42,11 @@ Until Apple did a major overhaul of iPad OS, I knew the device would never be a 
 
 I have been a professional programmer for more than a decade and I love dabbling into side projects often. I mostly do backend programming in [Go](https://go.dev) and build my frontends in [Next.js](https://nextjs.org). I sometimes run an instance of [Postgres](https://www.postgresql.org) and/or [Redis](https://redis.io). Given the restrictive nature of the iPad OS, developing directly on the iPad was not an option. I quickly moved to the next obvious alternative, Remote development.
 
-Remote development involves connecting to a remote machine and programming on it. This is not a new concept and many tools exists for the same. I had previously done some remote development using [neovim](https://neovim.io) and [ssh](https://www.cloudflare.com/learning/access-management/what-is-ssh/#). Here is an article that explains how to setup [neovim for remote development](https://alpha2phi.medium.com/modern-neovim-lsp-and-remote-development-9b1250ee6aee). Although it is possible to run ssh[¹](#4f3e) with vim on iPad, I was not a vim power user and preferred [VS Code](https://code.visualstudio.com/).
+Remote development involves connecting to a remote machine and programming on it. This is not a new concept and many tools exists for the same. I had previously done some remote development using [neovim](https://neovim.io) and [ssh](https://www.cloudflare.com/learning/access-management/what-is-ssh/#). Here is an article that explains how to setup [neovim for remote development](https://alpha2phi.medium.com/modern-neovim-lsp-and-remote-development-9b1250ee6aee). Although it is possible to run ssh[¹](#footnote1) with vim on iPad, I was not a vim power user and preferred [VS Code](https://code.visualstudio.com/).
+{#f-anchor1}
 
-VS Code already supports remote development in tandem with various cloud based services. [Github Codespaces](https://github.com/features/codespaces) is arguably the most well known. It does provide free limits but anything beyond hobbyist usage is bound to quickly get expensive. Other alternatives like [Coder](https://coder.com) and [Gitpod](https://www.gitpod.io) also provide development environments in the cloud for a price but none seemed right for me. Additionally, Coder has an Open Source version that can be self hosted and comes with plethora of features including multi IDE support and user management via OpenID Connect. Coder goes one step further and also provides [Code Server](https://github.com/coder/code-server) which enables running VS Code on a remote machine and access it via a browser. In effect, as long as I had a remote machine running Code Server, I could use any browser to code in a VS Code like IDE[²](#7361).
+VS Code already supports remote development in tandem with various cloud based services. [Github Codespaces](https://github.com/features/codespaces) is arguably the most well known. It does provide free limits but anything beyond hobbyist usage is bound to quickly get expensive. Other alternatives like [Coder](https://coder.com) and [Gitpod](https://www.gitpod.io) also provide development environments in the cloud for a price but none seemed right for me. Additionally, Coder has an Open Source version that can be self hosted and comes with plethora of features including multi IDE support and user management via OpenID Connect. Coder goes one step further and also provides [Code Server](https://github.com/coder/code-server) which enables running VS Code on a remote machine and access it via a browser. In effect, as long as I had a remote machine running Code Server, I could use any browser to code in a VS Code like IDE[²](#footnote2).
+{#f-anchor2}
 
 ![](0__pkPkUc7__FaFqgZ8e.jpg)
 {{< photocredit photographer="Christina @ wocintechchat.com" photographerUrl=https://unsplash.com/@wocintechchat source=Unsplash sourceUrl=https://unsplash.com/ >}}
@@ -60,9 +62,10 @@ Below are the steps, I followed to setup Code Server on an ssh-enabled remote Ub
 3.  Enable SSH for this newly created user.
 4.  Download, install and configure Code Server.
 5.  Download, install and configure Nginx.
-6.  Setup SSL for the server. _Optional_[³](#f1d7)
+6.  Setup SSL for the server. _Optional_ [³](#footnote3)
 7.  Configure netfilter firewall.
 8.  Start Code Server and Nginx.
+{#f-anchor3}
 
 These steps have been codified into a shell script. You can find it [here](https://github.com/vipulvpatil/code-server-setup/releases/download/v1.0.1/code-server-setup-1.0.1.tar.gz). A more detailed walkthrough of the script is available on [Github](https://github.com/vipulvpatil/code-server-setup). Since the script could be modified in the future, it may no longer match the steps provided above. Please refer to the Github for the latest version.
 
@@ -76,8 +79,11 @@ I am still early in my experiment, but this isn’t the first attempt at using i
 
 If you liked that this little project, do star it on [Github](https://github.com/vipulvpatil/code-server-setup). If you want to know more of where my experiment goes, consider following me here on medium or on Twitter at [vipulvpatil](https://twitter.com/vipulvpatil).
 
-1 [^](#be5b). [Termius](https://termius.com) and [Blink](https://blink.sh) provide ssh functionality in iPad OS
+1 [^](#f-anchor1). [Termius](https://termius.com) and [Blink](https://blink.sh) provide ssh functionality in iPad OS
+{#footnote1}
 
-2 [^](#4ef7). VS Code on the web does not have 100% feature parity with the desktop version.
+2 [^](#f-anchor2). VS Code on the web does not have 100% feature parity with the desktop version.
+{#footnote2}
 
-3 [^](#2734). Setting up SSL is optional but recommended. Additional setup is required to do this correctly.
+3 [^](#f-anchor3). Setting up SSL is optional but recommended. Additional setup is required to do this correctly.
+{#footnote3}
