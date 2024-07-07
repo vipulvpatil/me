@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'titilliumweb': ['TitilliumWeb']
+      'titilliumweb': ['TitilliumWeb'],
+      'overpassmono': ['OverpassMono']
     },
   },
   plugins: [],

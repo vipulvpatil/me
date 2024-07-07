@@ -11,3 +11,9 @@
   src: url("../fonts/TitilliumWeb-Bold.ttf") format('truetype');
   font-weight: bold;
 }
+
+@font-face {
+  font-family: OverpassMono;
+  font-display: swap;
+  src: url("../fonts/OverpassMono-VariableFont_wght.ttf") format('truetype');
+}

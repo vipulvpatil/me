@@ -55,9 +55,19 @@
 }
 
 .blog > p > code {
-  /* TODO: use a different monospace font */
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
   background: #eee;
   border-radius: 5px;
+  font-family: 'OverpassMono';
+}
+
+.blog > pre {
+  padding: 8px 10px 6px 10px;
+  background: #eee;
+  border-radius: 5px;
+  font-family: 'OverpassMono';
 }
 
 blockquote > p {
