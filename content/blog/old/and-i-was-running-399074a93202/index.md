@@ -5,15 +5,17 @@ description: >-
   aware of it, the race was already on. I simply found myself in…
 date: '2021-02-08T15:48:26.153Z'
 categories: []
-keywords: []
+tags: ['Introspection', 'Life Lessons']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/and-i-was-running-399074a93202
 ---
 
 The race began some unknown amount of time before I was born. When I became aware of it, the race was already on. I simply found myself in the race.
 
 ![Image needs more work](1__Ga__BiYV9cgA4P93UV14bTA.jpeg)
+
+{{< photocredit photographer="Samuel Silitonga" photographerUrl=https://www.pexels.com/@samsilitongajr source=Pexels sourceUrl=https://www.pexels.com/photo/silhouette-of-boy-running-in-body-of-water-during-sunset-694587/ >}}
 
 And I was running. I wasn’t exactly sure what I was running to or why I was running. I was told that this is how life gets better. So as life got better, I kept my head down and ran harder. School. College. Job. I ran through it all. And the lines between life and the race blurred. I no longer knew where one ended and the other started. My life had simply become the race.
 

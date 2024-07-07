@@ -5,7 +5,7 @@ description: >-
   project in itself, but it was part of something bigger. I had…
 date: '2023-03-07T06:56:27.200Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/the-idea-the-plan-and-the-journey-so-far-f46ffb8db9f5

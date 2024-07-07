@@ -5,7 +5,7 @@ description: >-
   to fully embrace remote development for all my programming…
 date: '2024-05-30T05:25:58.298Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/remote-development-launch-of-the-m4-ipad-pro-2d29b08570a2

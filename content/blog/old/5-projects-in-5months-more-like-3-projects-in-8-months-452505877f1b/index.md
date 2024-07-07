@@ -5,7 +5,7 @@ description: >-
   life. The plan was to build 5 projects in 5 months with an…
 date: '2023-09-15T10:38:44.168Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/5-projects-in-5months-more-like-3-projects-in-8-months-452505877f1b

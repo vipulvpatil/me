@@ -5,7 +5,7 @@ description: >-
   handling them. Finally the project is done and ready. I did a soft…
 date: '2023-05-08T16:49:48.684Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/ai-retreat-an-ai-driven-game-f941e3048cf9

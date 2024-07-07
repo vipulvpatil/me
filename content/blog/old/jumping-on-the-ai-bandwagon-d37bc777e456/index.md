@@ -5,7 +5,7 @@ description: >-
   project my full time project after my employment ends. On my…
 date: '2023-01-31T06:19:57.090Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/jumping-on-the-ai-bandwagon-d37bc777e456

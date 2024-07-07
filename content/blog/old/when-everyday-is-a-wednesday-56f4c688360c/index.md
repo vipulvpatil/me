@@ -5,7 +5,7 @@ description: >-
   experiment. The idea was to do 6 projects in 6 months and try to get…
 date: '2023-06-14T11:39:27.664Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/when-everyday-is-a-wednesday-56f4c688360c

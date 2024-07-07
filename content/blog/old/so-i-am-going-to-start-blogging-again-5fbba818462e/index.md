@@ -5,9 +5,9 @@ description: >-
   only ever actually written about 5 blog posts in all. The…
 date: '2021-01-27T22:44:56.385Z'
 categories: []
-keywords: []
+tags: ['Introspection', 'Fear Of Failure']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/so-i-am-going-to-start-blogging-again-5fbba818462e
 ---
 

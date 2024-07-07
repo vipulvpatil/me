@@ -5,7 +5,7 @@ description: >-
   successful year as a blog post writer. I posted more in the last 12…
 date: '2024-01-23T11:16:22.262Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/good-marketing-ruined-by-a-bad-product-my-experience-with-atlys-a6effd9e8dce

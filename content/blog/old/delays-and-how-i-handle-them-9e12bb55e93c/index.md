@@ -5,7 +5,7 @@ description: >-
   compared to the original plan it has had a 150% delay. It has been…
 date: '2023-04-23T16:20:15.344Z'
 categories: []
-keywords: []
+tags: []
 layout: 'imported'
 draft: true
 url: /blog/delays-and-how-i-handle-them-9e12bb55e93c

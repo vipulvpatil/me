@@ -5,7 +5,7 @@ description: >-
   ensure that I do not stop. That just means I simply need to keep…
 date: '2021-01-29T07:53:55.145Z'
 categories: []
-keywords: []
+tags: ['Introspection', 'Thoughts']
 layout: 'imported'
 draft: false
 url: /blog/step-1-start-step-2-dont-stop-7c683851bc2e
