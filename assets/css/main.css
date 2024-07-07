@@ -1,5 +1,6 @@
 @import 'tailwindcss/base';
 @import '/assets/css/custom.css';
+@import '/assets/css/blog.css';
 @import '/assets/css/nes.css';
 @import '/assets/css/fonts.css';
 @import 'tailwindcss/components';

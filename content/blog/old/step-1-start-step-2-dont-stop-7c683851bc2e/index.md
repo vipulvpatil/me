@@ -17,6 +17,8 @@ Wait a minute, its not that simple. I still need to figure what I am going to po
 
 ![](1__hG4UM6YYu8k626WgCORK5w.jpeg)
 
+{{< photocredit photographer="Maksim Goncharenok" photographerUrl=https://www.pexels.com/@maksgelatin source=Pexels sourceUrl=https://www.pexels.com/photo/sea-dawn-landscape-sunset-4412932/ >}}
+
 In my own head, I struggle to keep pace with how fast my thoughts go from one related topic to another. So between the time that someone said something to the time that I respond to that, my thoughts have jumped about four times and I am far away from the original thought. As a result, what I end up saying, seems completely unrelated to what was last said. Previously, it would stop me from saying what I am trying to say but now I just run with it and love watching a mixture of amusement and confusion on everyone’s faces.
 
 Because I am always around amazing folks, I rarely, if ever, run the risk of losing my audience. But this is the internet, no one has time for tangents. I go on a tangent, and the reader has already scrolled to the next story. Wait, what was I talking about! I went on a tangent, didn’t I?
