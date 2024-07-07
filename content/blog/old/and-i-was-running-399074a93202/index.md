@@ -13,7 +13,7 @@ url: /blog/and-i-was-running-399074a93202
 
 The race began some unknown amount of time before I was born. When I became aware of it, the race was already on. I simply found myself in the race.
 
-![Image needs more work](1__Ga__BiYV9cgA4P93UV14bTA.jpeg)
+![](1__Ga__BiYV9cgA4P93UV14bTA.jpeg)
 
 {{< photocredit photographer="Samuel Silitonga" photographerUrl=https://www.pexels.com/@samsilitongajr source=Pexels sourceUrl=https://www.pexels.com/photo/silhouette-of-boy-running-in-body-of-water-during-sunset-694587/ >}}
 

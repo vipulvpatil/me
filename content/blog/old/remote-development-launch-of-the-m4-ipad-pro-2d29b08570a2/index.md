@@ -5,7 +5,7 @@ description: >-
   to fully embrace remote development for all my programming…
 date: '2024-05-30T05:25:58.298Z'
 categories: []
-tags: []
+tags: ['Remote Working', 'Development Tools', 'IPad Pro']
 layout: 'imported'
 draft: true
 url: /blog/remote-development-launch-of-the-m4-ipad-pro-2d29b08570a2
@@ -13,8 +13,9 @@ url: /blog/remote-development-launch-of-the-m4-ipad-pro-2d29b08570a2
 
 **tl;dr** In pursuit of justifying an impending iPad Pro purchase, I am attempting to fully embrace remote development for all my programming activities. The first milestone is captured by [this setup script](https://github.com/vipulvpatil/code-server-setup).
 
-![Image needs more work](0__FxYgGw__IerFfmbsG.jpg)
+![](0__FxYgGw__IerFfmbsG.jpg)
 
+{{< photocredit photographer="Ern Gan" photographerUrl=https://unsplash.com/@ern source=Unsplash sourceUrl=https://unsplash.com/ >}}
 
 ### A little background
 
@@ -31,7 +32,9 @@ One key thing hadn’t changed at all.
 
 1.  iPad OS was still heavily underpowered and restricted the user from truly realizing the capabilities of the hardware underneath.
 
-![Image needs more work](0__aONJwBrxhxipEm2p.jpg)
+![](0__aONJwBrxhxipEm2p.jpg)
+
+{{< photocredit photographer="Walling" photographerUrl=https://unsplash.com/@walling source=Unsplash sourceUrl=https://unsplash.com/ >}}
 
 Until Apple did a major overhaul of iPad OS, I knew the device would never be a one to one replacement of a MacOS powered system. I needed it to do just enough to enable me to travel without my bulky MacBook. I use my MacBook for a lot of things but the single most important thing I do on it is programming. So I set out to see if I could do that on an iPad.
 
@@ -43,7 +46,8 @@ Remote development involves connecting to a remote machine and programming on it
 
 VS Code already supports remote development in tandem with various cloud based services. [Github Codespaces](https://github.com/features/codespaces) is arguably the most well known. It does provide free limits but anything beyond hobbyist usage is bound to quickly get expensive. Other alternatives like [Coder](https://coder.com) and [Gitpod](https://www.gitpod.io) also provide development environments in the cloud for a price but none seemed right for me. Additionally, Coder has an Open Source version that can be self hosted and comes with plethora of features including multi IDE support and user management via OpenID Connect. Coder goes one step further and also provides [Code Server](https://github.com/coder/code-server) which enables running VS Code on a remote machine and access it via a browser. In effect, as long as I had a remote machine running Code Server, I could use any browser to code in a VS Code like IDE[²](#7361).
 
-![Image needs more work](0__pkPkUc7__FaFqgZ8e.jpg)
+![](0__pkPkUc7__FaFqgZ8e.jpg)
+{{< photocredit photographer="Christina @ wocintechchat.com" photographerUrl=https://unsplash.com/@wocintechchat source=Unsplash sourceUrl=https://unsplash.com/ >}}
 
 ### Setup
 
@@ -62,7 +66,7 @@ Below are the steps, I followed to setup Code Server on an ssh-enabled remote Ub
 
 These steps have been codified into a shell script. You can find it [here](https://github.com/vipulvpatil/code-server-setup/releases/download/v1.0.1/code-server-setup-1.0.1.tar.gz). A more detailed walkthrough of the script is available on [Github](https://github.com/vipulvpatil/code-server-setup). Since the script could be modified in the future, it may no longer match the steps provided above. Please refer to the Github for the latest version.
 
-![Image needs more work](1__yn2xtyNGhehuVncfSBDGlg.png)
+![](1__yn2xtyNGhehuVncfSBDGlg.png)
 
 ### Future
 

@@ -7,7 +7,7 @@ date: '2023-06-14T11:39:27.664Z'
 categories: []
 tags: ['Motivation', 'Self Improvement', 'Self Care']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/when-everyday-is-a-wednesday-56f4c688360c
 ---
 

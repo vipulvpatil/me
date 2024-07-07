@@ -7,7 +7,7 @@ date: '2023-05-08T16:49:48.684Z'
 categories: []
 tags: ['Side Project', 'Artificial Intelligence', 'Projects']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/ai-retreat-an-ai-driven-game-f941e3048cf9
 ---
 
