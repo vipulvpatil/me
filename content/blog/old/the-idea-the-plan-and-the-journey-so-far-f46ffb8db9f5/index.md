@@ -5,9 +5,9 @@ description: >-
   project in itself, but it was part of something bigger. I had…
 date: '2023-03-07T06:56:27.200Z'
 categories: []
-tags: []
+tags: ['Projects', 'Learning', 'AI', 'Artificial Intelligence']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/the-idea-the-plan-and-the-journey-so-far-f46ffb8db9f5
 ---
 
@@ -20,6 +20,10 @@ It was around 2015–16 that I first came across [levels.io](https://medium.com/
 1.  **I would do it for 5 months instead of 12 months and consequently build 5 projects.** This is mostly because I do not want to commit to the longer timeline. I am open to continuing for a year if it feels right. But I do not want to start with a year. Anything less would mean that I might not have enough time to do substantial work in terms of the number of projects or the their size.
 2.  **Launching the project is a key goal same as the original idea but I would also focus on improving on my non-techical skills.** This is extremely important for me. I have been honing my skills as software professional for the more than a decade but have mostly glossed over a lot of the non-technical aspects of software building. Working in a product team in my last job made me highly aware of the non-technical challenges of building and maintaining software. But beyond awareness, I also found myself excited by these challenges and want to learn to tackle them.
 3.  **Make money.** This is key. This experiment would be a failure, if I am unable to earn from it. Being a developer at heart, I find immense pleasure in writing code and building software systems but it also leads to me not caring about the financial outcome of my projects. This is something I consciously want to remedy. This does not mean, that every project I work on needs to make money but instead I want to work towards figuring out on how to monetize the project I am working on. It also means that the project I am working on should be useful for more than just myself. Because if it does not provide value to others, it cannot be monetized.
+
+![](0__w3m9vupuqBXqtN8.jpg)
+
+{{< photocredit photographer="Lauren Mancke" photographerUrl=https://unsplash.com/@laurenmancke source=Unsplash sourceUrl=https://unsplash.com/ >}}
 
 ### The plan
 

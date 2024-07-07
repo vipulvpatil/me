@@ -5,7 +5,7 @@ description: >-
   life. The plan was to build 5 projects in 5 months with an…
 date: '2023-09-15T10:38:44.168Z'
 categories: []
-tags: []
+tags: ['Projects', 'Side Project', 'Introspection']
 layout: 'imported'
 draft: true
 url: /blog/5-projects-in-5months-more-like-3-projects-in-8-months-452505877f1b
@@ -17,7 +17,9 @@ Some time mid January 2023, about 8 months ago, I embarked on a new phase of lif
 
 I have finished my 3rd project and am currently formulating an official launch. It is called Prospect and is already available [here](https://prospect.fit). Prospect, [Joblead.io](https://www.joblead.io/) and [AiRetreat.co](https://airetreat.co/) make it 3 projects completed in 8 months. That averages to about two and a half months per project. However, the actual project time for each was vastly different. The first project [Joblead.io](https://www.joblead.io/) was completed within **3 weeks** and launched at the end of January. [AiRetreat.co](https://airetreat.co/) took about **3 months** and debuted early May. And now I have spent another **4 months** to finish and launch [Prospect](https://www.prospect.fit). Overall, a major deviation from the planned timeline and something to improve upon in the future.
 
-![Image needs more work](0__FdA68JvrTphG3ttu.jpg)
+![](0__FdA68JvrTphG3ttu.jpg)
+
+{{< photocredit photographer="Andrew Ridley" photographerUrl=https://unsplash.com/@aridley88 source=Unsplash sourceUrl=https://unsplash.com/ >}}
 
 #### The key learnings
 

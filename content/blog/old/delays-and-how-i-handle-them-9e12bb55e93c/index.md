@@ -5,9 +5,9 @@ description: >-
   compared to the original plan it has had a 150% delay. It has been…
 date: '2023-04-23T16:20:15.344Z'
 categories: []
-tags: []
+tags: ['Software Engineering', 'Project Management', 'Project Management Skills']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/delays-and-how-i-handle-them-9e12bb55e93c
 ---
 
@@ -17,7 +17,7 @@ My current project has been going on for more than 2 months. That means compared
 
 I have been working as a software professional for more than a decade and I have rarely seen a project completed exactly in the allocated timeline. One obvious reason is mistakes made during estimation. To get better at estimations, simply watch [Uncle Bob’s talk](https://www.youtube.com/watch?v=eisuQefYw_o) on the same topic. Here, I will discuss what can we do to prepare ourselves for the inevitable delays. This post is not about avoiding delays. It is about acknowledging them and handling them. Some delays are avoidable, others are not. It is best to accept that delays happen and devise ways to overcome them.
 
-![Image needs more work](0__VZBPDsRnDXBVE9VP.jpg)
+![](0__VZBPDsRnDXBVE9VP.jpg)
 
 ### Types of delays
 
@@ -41,7 +41,7 @@ Irrespective of the type of delay, they all affect me the same way. I panic and 
 
 I used two google sheets, one to track my time and the other to track my project.
 
-![Image needs more work](1__T2xnj6oN56mIUAjxoO5o6Q.png)
+![](1__T2xnj6oN56mIUAjxoO5o6Q.png)
 
 The time tracker is the more complex of the two but is still very simple. Every column is a day and every row is a task (or category of tasks) that I do regularly. A few formulae help track daily time targets and easily display monthly deficits. That’s it. As simple as it sounds, it is quite powerful. I was able to quickly glance at it a few days ago and accurately pinpoint every delay in my project. A little notes section indicated the cause of each delay.
 

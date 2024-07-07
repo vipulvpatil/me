@@ -5,7 +5,7 @@ description: >-
   handling them. Finally the project is done and ready. I did a soft…
 date: '2023-05-08T16:49:48.684Z'
 categories: []
-tags: []
+tags: ['Side Project', 'Artificial Intelligence', 'Projects']
 layout: 'imported'
 draft: true
 url: /blog/ai-retreat-an-ai-driven-game-f941e3048cf9
@@ -15,7 +15,7 @@ Two weeks ago, I talked about [delays]({{< relref "/blog/old/delays-and-how-i-ha
 
 The game is titled [AI Retreat](https://airetreat.co/). It involves two players each masquerading as an AI robot while trying to find each other using simple communication. You can find the detailed [story here](https://airetreat.co/story).
 
-![Image needs more work](1__iDrgxVix6HK00g2E2nioCg.png)
+![](1__iDrgxVix6HK00g2E2nioCg.png)
 
 ### Gameplay
 
@@ -36,7 +36,7 @@ AI Retreat is a 2-player game. Once both players have joined the game, three AI 
 *   If you are right, you win
 *   Otherwise you lose.
 
-![Image needs more work](1__D034qOyw3BqexoFdLzMuXQ.png)
+![](1__D034qOyw3BqexoFdLzMuXQ.png)
 
 #### Game end
 

@@ -5,7 +5,7 @@ description: >-
   experiment. The idea was to do 6 projects in 6 months and try to get…
 date: '2023-06-14T11:39:27.664Z'
 categories: []
-tags: []
+tags: ['Motivation', 'Self Improvement', 'Self Care']
 layout: 'imported'
 draft: true
 url: /blog/when-everyday-is-a-wednesday-56f4c688360c
@@ -17,7 +17,9 @@ Let’s back up a little. A few years ago, I read about some research that claim
 
 Now, if I consider my project one long week, I am currently living this proverbial Wednesday. At the start of the project, there were lot of unknowns. The total feature set, the mvp, the code architecture, the visual design, each task was more exciting and challenging than the previous one. After completing them, I was left with an impressive task list and a lot of coding to do. So I began. The first few weeks were still fun, as I saw my ideas come to life, but eventually I reached where I currently am. Every day, I pick the next coding piece and put it together. The full picture slowly forming but not really revealing itself. I no longer feel the excitement of working on this new project and since the end is too far to be visible, I don’t feel the rush of the final mile either. This is my Wednesday.
 
-![Image needs more work](0__nukBh2ddoeQDjpc0.jpg)
+![](0__nukBh2ddoeQDjpc0.jpg)
+
+{{< photocredit photographer=charlesdeluvio photographerUrl=https://unsplash.com/@charlesdeluvio source=Unsplash sourceUrl=https://unsplash.com/ >}}
 
 A lack of motivation is something we all have struggled with one or another time. Wednesdays are hard because of the drop in motivation. I was aware of this phenomenon when I started on this journey and hence was following a traditional work week and taking breaks on weekdays. So the actual Wednesday never troubled me. But this proverbial Wednesday stayed in my blindspot until now. And now that it is here, I am struggling to deal with it.
 

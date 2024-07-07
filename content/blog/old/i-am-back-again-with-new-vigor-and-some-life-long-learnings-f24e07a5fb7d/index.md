@@ -5,9 +5,9 @@ description: >-
   stop before March. I am hoping this will be different because…
 date: '2023-01-09T14:04:36.274Z'
 categories: []
-tags: []
+tags: ['Introspection', 'Life Lessons']
 layout: 'imported'
-draft: true
+draft: false
 url: /blog/i-am-back-again-with-new-vigor-and-some-life-long-learnings-f24e07a5fb7d
 ---
 
@@ -17,7 +17,10 @@ It’s been a fantastic ride at Coinbase and I am leaving with some amazing memo
 
 Here, I am sharing three incidents of these past four years that came with massive learnings for me.
 
-![Image needs more work](0__00h1W8vudSDu1qWn.jpg)
+![](0__00h1W8vudSDu1qWn.jpg)
+
+{{< photocredit photographer="Zac Durant" photographerUrl=https://unsplash.com/@zacdurant source=Unsplash sourceUrl=https://unsplash.com/ >}}
+
 
 ### Obtaining honest feedback and working on oneself is the simplest way to grow.
 
