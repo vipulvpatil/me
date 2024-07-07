@@ -3,6 +3,11 @@
   --blog-items-mt2: 0.75em;
   --blog-items-mt3: 0.5em;
   --list-ml: 30px;
+  --color-codeblock-background: #EEEEEE;
+
+  @media (prefers-color-scheme: dark) {
+    --color-codeblock-background: #333333;
+  }
 }
 
 .blog > * {
@@ -58,14 +63,14 @@
   padding-top: 4px;
   padding-left: 6px;
   padding-right: 6px;
-  background: #eee;
+  background: var(--color-codeblock-background);
   border-radius: 5px;
   font-family: 'OverpassMono';
 }
 
 .blog > pre {
-  padding: 8px 10px 6px 10px;
-  background: #eee;
+  padding: 10px 16px;
+  background: var(--color-codeblock-background);
   border-radius: 5px;
   font-family: 'OverpassMono';
 }

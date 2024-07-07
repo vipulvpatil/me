@@ -25,13 +25,13 @@ Want to only look at candidates with 8 or more years of experience, just ask for
 
 ![](1__Gf____cmhmEobtsEGcu6hW9g.gif)
 
-{{< photocaption "Prospect in action">}}
+{{< photocaption "Prospect in action" >}}
 
 By using fine tuned prompts, [Prospect](https://www.prospect.fit/) is able to extract relevant information from a wide variety of resume styles. I am constantly working on improving the AI prompts to deliver even better data extraction. The extracted data is stored securely and is available for quick searching. The search capabilities allow for more complex filtering to narrow down the results as needed.
 
 {{< youtube uJ7Yg9cwjpk >}}
 
-{{< photocaption "Prospect in action">}}
+{{< photocaption "Prospect in action" >}}
 
 You can [try Prospect without signing up](https://www.prospect.fit/search?testMode=1). Prospect is currently free to use and recruiters will find it to be highly effective at managing a large number of resumes with minimum hassle. Do give it a try and provide your [feedback](https://forms.gle/JrmFLJCM7r9xQHdL6). You can also email me at assist.prospect@gmail.com or vipulvpatil@gmail.com
 
