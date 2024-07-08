@@ -1,7 +1,7 @@
 <div class="blog-list-item">
   <a href="{{ .RelPermalink }}">
-    <h3>{{ .LinkTitle }}</h3>
-    <div>
+    <h3 class="line-clamp-1">{{ .LinkTitle }}</h3>
+    <div class="line-clamp-2">
       {{ $content := replaceRE "<a .*\">" "" .Content }}
       {{ $content = replaceRE "</a>" "" $content }}
       {{ $content | safeHTML | truncate 150 }}  
