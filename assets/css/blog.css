@@ -14,6 +14,10 @@
   margin-top: var(--blog-items-mt1);
 }
 
+.blog > p {
+  line-height: 2em;
+}
+
 .blog > p > img {
   margin-top: 50px;
   margin-bottom: 5px;
