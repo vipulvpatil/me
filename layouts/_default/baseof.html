@@ -15,6 +15,9 @@
     {{ block "main" . }}
       This should be replaced by every page
     {{ end }}
+    {{ block "top3blogs" . }}
+    {{ partial "top3blogs.html" . }}
+    {{ end }}
     {{ partial "footer.html" . }}
   </body>
 </html>

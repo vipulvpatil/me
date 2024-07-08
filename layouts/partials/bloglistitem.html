@@ -1,6 +1,6 @@
 <div class="blog-list-item">
   <a href="{{ .RelPermalink }}">
-    <h3>{{ .Title }}</h3>
+    <h3>{{ .LinkTitle }}</h3>
     <div>
       {{ $content := replaceRE "<a .*\">" "" .Content }}
       {{ $content = replaceRE "</a>" "" $content }}
