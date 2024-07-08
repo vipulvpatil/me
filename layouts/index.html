@@ -6,11 +6,7 @@
       </canvas>
       {{ partial "nescontroller.html" .Site.Params.controller }}
     </div>
-    <div>
-      {{ range first 10 .Site.RegularPages }}
-        {{ .Render "summary" }}
-      {{ end }}
-    </div>
+    {{ partial "top3blogs.html" . }}
     <script>
       const canvas = document.getElementById("neswire")
       const ctx = canvas.getContext("2d")

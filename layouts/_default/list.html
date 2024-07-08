@@ -6,12 +6,6 @@
       </header>
       {{ .Content }}
     </article>
-    <ul>
-      {{ range .Pages }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }} | {{ .LinkTitle }}</a>
-        </li>
-      {{ end }}
-    </ul>
+    {{ partial "top3blogs.html" . }}
   </main>
 {{ end }}

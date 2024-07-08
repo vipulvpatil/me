@@ -14,10 +14,6 @@
     <div class="homepage-content blog">
       {{ .Content }}
     </div>
-    <div>
-      {{ range first 10 .Site.RegularPages }}
-        {{ .Render "summary" }}
-      {{ end }}
-    </div>
+    {{ partial "top3blogs.html" . }}
   </main>
 {{ end }}
