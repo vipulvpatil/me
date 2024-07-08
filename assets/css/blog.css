@@ -3,10 +3,10 @@
   --blog-items-mt2: 0.75em;
   --blog-items-mt3: 0.5em;
   --list-ml: 30px;
-  --color-codeblock-background: #EEEEEE;
+  --color-codeblock-background: var(--color-off-white);
 
   @media (prefers-color-scheme: dark) {
-    --color-codeblock-background: #333333;
+    --color-codeblock-background: var(--color-off-black);
   }
 }
 
@@ -89,4 +89,20 @@ blockquote > p {
   color: var(--color-light-gray);
   font-size: 14px;
   text-align: center;
+}
+
+.blog-list-item {
+  padding-bottom: 50px;
+}
+
+.blog-list-item > a {
+  text-decoration: none !important;
+}
+
+.blog-list-item > a > h3 {
+  font-weight: bold;
+}
+
+.blog-list-item > a > date {
+  color: var(--color-off-primary);
 }

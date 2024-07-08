@@ -1,5 +1,5 @@
 +++
-title = 'Blog'
+title = 'All blog posts'
 date = 2024-06-25T12:57:13Z
 draft = false
 +++
