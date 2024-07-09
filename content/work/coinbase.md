@@ -4,7 +4,7 @@ role: 'Senior Software Engineer'
 duration: '2018 - 2023'
 date: '2024-07-09T17:08:40Z'
 keySkills: ['NodeJS', 'Javascript', 'TypeScript', 'Ruby on Rails', 'Golang', 'React', 'Docker']
-draft: true
+draft: false
 ---
 
 ### Responsibilities

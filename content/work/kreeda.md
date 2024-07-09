@@ -4,7 +4,7 @@ role: 'Game Programmer'
 duration: '2010 -2012'
 date: '2024-07-09T14:36:31Z'
 keySkills: ['ActionScript 3.0', 'Game Development', 'Team Lead', 'Project Management']
-draft: true
+draft: false
 ---
 
 ### Responsibilities
