@@ -129,3 +129,24 @@ a {
 a:link.title {
   text-decoration: none;
 }
+
+
+.list-element {
+  padding-bottom: 50px;
+}
+
+.list-element > a {
+  text-decoration: none !important;
+}
+
+.list-element > a > h3 {
+  font-weight: bold;
+}
+
+.semi-contrast {
+  color: var(--color-off-primary);
+}
+
+p {
+  line-height: 2em;
+}

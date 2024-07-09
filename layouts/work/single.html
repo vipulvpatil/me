@@ -1,13 +1,11 @@
 {{ define "main" }}
   <main aria-role="main">
-    <header class="homepage-header">
+    <header class="homepage-header post">
       <h1>{{ .Title }}</h1>
-      {{ with .Params.subtitle }}
-        <span class="subtitle">{{ . }}</span>
-      {{ end }}
+      <h3 class="semi-contrast">{{ .Params.duration }}</h3>
+      <h2>{{ .Params.role }}</h2>
     </header>
     <div class="homepage-content post">
-      This is an Regular blog post
       {{ .Content }}
     </div>
     {{ partial "top3blogs.html" . }}

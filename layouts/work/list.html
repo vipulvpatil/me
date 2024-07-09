@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      {{ .Content }}
+      <div class="mt-24"></div>
+    </article>
+    {{ range .Pages }}
+      {{ partial "worklistitem.html" .}}
+    {{ end }}
+  </main>
+{{ end }}

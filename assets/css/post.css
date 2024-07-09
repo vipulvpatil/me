@@ -1,7 +1,7 @@
-.blog {
-  --blog-items-mt1: 1.75em;
-  --blog-items-mt2: 0.75em;
-  --blog-items-mt3: 0.5em;
+.post {
+  --elements-mt1: 1.75em;
+  --elements-mt2: 0.75em;
+  --elements-mt3: 0.5em;
   --list-ml: 30px;
   --color-codeblock-background: var(--color-off-white);
 
@@ -10,60 +10,56 @@
   }
 }
 
-.blog > * {
-  margin-top: var(--blog-items-mt1);
+.post > * {
+  margin-top: var(--elements-mt1);
 }
 
-.blog > p {
-  line-height: 2em;
-}
-
-.blog > p > img {
+.post > p > img {
   margin-top: 50px;
   margin-bottom: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.blog > h3 {
+.post > h3 {
   font-size: 24px;
   font-weight: bold;
 }
 
-.blog > h3 + * {
-  margin-top: var(--blog-items-mt3);
+.post > h3 + * {
+  margin-top: var(--elements-mt3);
 }
 
-.blog > h4 {
+.post > h4 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.blog > h4 + * {
-  margin-top: var(--blog-items-mt3);
+.post > h4 + * {
+  margin-top: var(--elements-mt3);
 }
 
-.blog > ol {
+.post > ol {
   list-style-type: decimal;
 }
 
-.blog > ul {
+.post > ul {
   list-style-type: disc;
 }
 
-.blog > ol > li:not(:first-child) {
-  margin-top: var(--blog-items-mt2);
+.post > ol > li:not(:first-child) {
+  margin-top: var(--elements-mt2);
 }
 
-.blog > ul > li:not(:first-child) {
-  margin-top: var(--blog-items-mt2);
+.post > ul > li:not(:first-child) {
+  margin-top: var(--elements-mt2);
 }
 
-.blog > ol, ul > li {
+.post > ol, ul > li {
   margin-left: var(--list-ml);
 }
 
-.blog > p > code {
+.post > p > code {
   padding-top: 4px;
   padding-left: 6px;
   padding-right: 6px;
@@ -72,7 +68,7 @@
   font-family: 'OverpassMono';
 }
 
-.blog > pre {
+.post > pre {
   padding: 10px 16px;
   background: var(--color-codeblock-background);
   border-radius: 5px;
@@ -85,24 +81,8 @@ blockquote > p {
 }
 
 .caption {
-  margin-top: var(--blog-items-mt3) !important;
+  margin-top: var(--elements-mt3) !important;
   color: var(--color-light-gray);
   font-size: 14px;
   text-align: center;
-}
-
-.blog-list-item {
-  padding-bottom: 50px;
-}
-
-.blog-list-item > a {
-  text-decoration: none !important;
-}
-
-.blog-list-item > a > h3 {
-  font-weight: bold;
-}
-
-.blog-list-item > a > date {
-  color: var(--color-off-primary);
 }

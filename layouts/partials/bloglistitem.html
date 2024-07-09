@@ -1,4 +1,4 @@
-<div class="blog-list-item">
+<div class="list-element">
   <a href="{{ .RelPermalink }}">
     <h3 class="line-clamp-1">{{ .LinkTitle }}</h3>
     <div class="line-clamp-2">
@@ -6,8 +6,8 @@
       {{ $content = replaceRE "</a>" "" $content }}
       {{ $content | safeHTML | truncate 150 }}  
     </div>  
-    <date>
+    <div class="semi-contrast">
     {{ .Date.Format "1 February 2006" }}
-    </date>
+    </div>
   </a>
 </div>
