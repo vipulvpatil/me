@@ -1,9 +1,9 @@
 {{ define "main" }}
   <main aria-role="main">
     <header class="homepage-header post">
-      <h1>{{ .Title }}</h1>
-      <h3 class="semi-contrast">{{ .Params.duration }}</h3>
-      <h2>{{ .Params.role }}</h2>
+      <h1 class="mt-0">{{ .Title }}</h1>
+      <h2 class="mt-0 pb-0">{{ .Params.role }}</h2>
+      <h3 class="semi-contrast mt-0 pt-0">{{ .Params.duration }}</h3>
     </header>
     <div class="homepage-content post">
       {{ .Content }}
