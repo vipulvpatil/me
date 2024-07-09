@@ -2,15 +2,23 @@
 title: 'Animedia'
 role: 'Game Programmer'
 duration: '2008 - 2010'
-description: "My first job after completing my Bachelor's was at Flash Game Company in Mumbai"
 date: '2024-07-09T11:25:16Z'
 keySkills: ['ActionScript 3.0', 'Game Development', 'Teamwork']
 draft: true
 ---
 
-I joined Animedia (later rebranded as Axis Entertainment) in September of 2008. I had no knowledge of Flash Game Programming and had never before worked with ActionScript. I picked up the basics on the job and then made my first ever game, [Counter Drift](https://www.youtube.com/watch?v=wLmn6uD1G84). Over the next 2 years, not only did I master ActionScript 3.0 but also gained expertise in the art of game development.
+### Responsibilities
 
-Apart from programming, I picked up a few soft skills at Animedia. I had done software projects before but doing so in tandem with other people was new to me. Working with a team of (Game and Visual) designers helped me understand my own limitations and also built up my collaboration muscle. A large part of my current positive energy comes from my experiences at Animedia. I left Animedia in 2010 and moved to [Kreeda Games]({{< relref "/work/kreeda" >}}).
+- Led a team of 3 programmers developing games of different types ranging from dressup games to physics-based arcade games.
+- Developed basic game engines in flash that can accelerate game production of a particular genre like cooking games, dress up games, side scrollers.
+- Research on feasibility of new ideas presented by game designers and reasearch for performance improvement of existing implementations resulting in faster running games.
+
+### Highlights
+
+- Successfully utilized the opportunity of researching and working on physics engines like APE and Box2D early on, and enabled the company to take up more complex projects.
+- Designed and implemented a multiplayer flash website based on Smartfoxserver and implemented a realtime and a turn based game on it.
+- Convinced the team to use a Level Editor in a physics based platformer (Tempus Terminus - link below). Implemented the said level editor, which was eventually released as a part of the game.
+- Learnt Flash game development from scratch through self study and began work on a project within 3 weeks of joining.
 
 ### Top Projects
 - [Tempus Terminus](https://www.miniplay.com/game/tempus-terminus)

@@ -4,11 +4,13 @@
       <header>
         <h1>{{ .Title }}</h1>
       </header>
+      <h2>Experience</h2>
+      {{ range .Pages }}
+        {{ partial "worklistitem.html" .}}
+      {{ end }}
       {{ .Content }}
       <div class="mt-24"></div>
     </article>
-    {{ range .Pages }}
-      {{ partial "worklistitem.html" .}}
-    {{ end }}
+    {{ partial "top3blogs.html" . }}
   </main>
 {{ end }}

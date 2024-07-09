@@ -47,6 +47,10 @@
   list-style-type: disc;
 }
 
+.post > ul > li > ul {
+  list-style-type: circle;
+}
+
 .post > ol > li:not(:first-child) {
   margin-top: var(--elements-mt2);
 }
