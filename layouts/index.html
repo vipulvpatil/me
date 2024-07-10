@@ -44,7 +44,7 @@
 {{ define "partials/mytv-items.html"}}
   {{- $itemKey := index . "key" }}
   {{- $itemText := index . "text" }}
-  <div id="{{ $itemKey }}" class="tv-item">
+  <div id="{{ $itemKey }}" class="tv-item unselected">
     {{ $itemText }}
   </div>
 {{ end }}
