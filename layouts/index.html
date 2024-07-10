@@ -28,7 +28,7 @@
         <div class="tv-subtitle">{{ .Content }}</div>
       </div>
       <div class="tv-items">
-        {{ range .Params.activity.list}}
+        {{ range .Params.activity.items}}
           {{ partial "mytv-items.html" .}}
         {{ end }}
       </div>
@@ -37,7 +37,9 @@
 {{ end }}
 
 {{ define "partials/mytv-items.html"}}
-  <div class="tv-item">
-    {{ . }}
+  {{- $itemKey := index . "key" }}
+  {{- $itemText := index . "text" }}
+  <div id="{{ $itemKey }}" class="tv-item">
+    {{ $itemText }}
   </div>
 {{ end }}
