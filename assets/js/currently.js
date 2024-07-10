@@ -20,7 +20,9 @@ const displayCurrently = (schedule, tz) => {
   let myDisplayDate = currentDate.toLocaleString("en-US", displayOptions)
 
   let mytimeElement = document.getElementById("mytime")
-  mytimeElement.innerHTML = myDisplayDate
+  if (!!mytimeElement) {
+    mytimeElement.innerHTML = myDisplayDate
+  }
 
   var activityElements = [
     document.getElementById("games"),

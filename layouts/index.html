@@ -7,6 +7,7 @@
       {{ partial "nescontroller.html" .Site.Params.controller }}
     </div>
     {{ partial "top3blogs.html" . }}
+    {{ partial "partials/datehandler.html" . }}
     <script>
       const canvas = document.getElementById("neswire")
       const ctx = canvas.getContext("2d")
@@ -46,4 +47,13 @@
   <div id="{{ $itemKey }}" class="tv-item">
     {{ $itemText }}
   </div>
+{{ end }}
+
+{{ define "partials/datehandler.html"}}
+  {{- $js := resources.Get "js/currently.js" -}}
+  {{- $opts := dict
+    "params" (dict "schedule" .Site.Data.schedule "tz" .Site.Data.location.timezone)
+  -}}
+  {{- $js = $js | js.Build $opts -}}
+  <script defer language="javascript" type="text/javascript" src="{{ $js.Permalink }}"></script>
 {{ end }}
