@@ -32,6 +32,10 @@
           {{ partial "mytv-items.html" .}}
         {{ end }}
       </div>
+      <div class="flex justify-between px-4 pb-2">
+        <div id="mylocation" class="text-sm semi-contrast">{{ $.Site.Data.location.city }}, {{ $.Site.Data.location.country }}</div>
+        <div id="mytime" class="text-sm semi-contrast">xxx xx, xxxx, x:xx xx</div>
+      </div>
     </div>
   </div>
 {{ end }}

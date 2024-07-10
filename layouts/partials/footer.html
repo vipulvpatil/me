@@ -1,6 +1,11 @@
 {{ block "footer" . }}
   <footer class="main-footer">
     <div>&copy; Vipul V Patil / Powered by&nbsp;<a href="https://gohugo.io/">Hugo</a></div>
-    <script defer language="javascript" type="text/javascript"  src='{{ "js/currently.js" | relURL }}'></script>
+    {{- $js := resources.Get "js/currently.js" -}}
+    {{- $opts := dict
+      "params" (dict "schedule" .Site.Data.schedule "tz" .Site.Data.location.timezone)
+    -}}
+    {{- $js = $js | js.Build $opts -}}
+    <script defer language="javascript" type="text/javascript" src="{{ $js.Permalink }}"></script>
   </footer>
 {{ end }}

@@ -18,4 +18,6 @@ params:
         text: 'Sound asleep'
 ---
 
-I am a software engineer specializing in backend systems, with a deep interest in impactful problem solving. Currently, I am ...
+I am a software engineer specializing in backend systems, interested in impactful problem solving. 
+
+Currently, I am ...

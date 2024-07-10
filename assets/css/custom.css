@@ -153,4 +153,9 @@ p {
 
 .unselected {
   color: var(--color-off-primary);
+  font-weight: normal;
+}
+
+.selected {
+  font-weight: bold;
 }
