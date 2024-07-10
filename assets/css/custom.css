@@ -150,3 +150,7 @@ a:link.title {
 p {
   line-height: 2em;
 }
+
+.unselected {
+  color: var(--color-off-primary);
+}
