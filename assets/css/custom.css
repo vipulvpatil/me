@@ -87,6 +87,10 @@ body {
   margin: auto;
 }
 
+.tv-subtitle > p {
+  line-height: 1.5em;
+}
+
 .tv-items {
   display: flex;
   flex-direction: column;
