@@ -4,7 +4,10 @@
       <header>
         <h1>{{ .Title }}</h1>
       </header>
-      <h2>Experience</h2>
+      <div class="flex justify-between items-baseline">
+        <h2>Experience</h2>
+        <a href={{ "Vipul_Patil_July_2024.pdf" | absURL }} target="_blank" download>Download Resume</a>
+      </div>
       {{ range .Pages }}
         {{ partial "worklistitem.html" .}}
       {{ end }}
