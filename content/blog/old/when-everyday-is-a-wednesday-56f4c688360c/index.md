@@ -11,7 +11,7 @@ draft: false
 url: /blog/when-everyday-is-a-wednesday-56f4c688360c
 ---
 
-As regular readers might know, I have been working on a [six month long experiment](https://medium.com/@vipulvpatil/the-idea-the-plan-and-the-journey-so-far-f46ffb8db9f5). The idea was to do 6 projects in 6 months and try to get some basic earning from them. With 5 months up, I am done with two projects, [Joblead.io](https://www.joblead.io) and [AiRetreat.co](https://airetreat.co). A third one is ongoing and should be out next month. But it has not been a smooth sailing easy journey. For the past few weeks, I have been stuck in a Wednesday.
+As regular readers might know, I have been working on a [six month long experiment](https://medium.com/@vipulvpatil/the-idea-the-plan-and-the-journey-so-far-f46ffb8db9f5). The idea was to do 6 projects in 6 months and try to get some basic earning from them. With 5 months up, I am done with two projects, [Joblead](https://joblead.vipulvpatil.dev) and [AiRetreat](https://airetreat.vipulvpatil.dev). A third one is ongoing and should be out next month. But it has not been a smooth sailing easy journey. For the past few weeks, I have been stuck in a Wednesday.
 
 Let’s back up a little. A few years ago, I read about some research that claimed Wednesday, not Monday, is the worst day of the week. The reason mentioned was that by Wednesday you are far away from the start of the week and the end is quiet far as well. By Wednesday, the euphoria of the previous weekend has waned and the excitement of the next weekend has not kicked in.
 

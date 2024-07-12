@@ -51,7 +51,7 @@ The project tracker is even simpler. It is a todo list with a time duration and 
 
 Working independently is hard for me and these simple things have massively helped. They keep me accountable while still ensuring that I am not overwhelmed when things do not go as planned. Before I had this system, the delays would have lead to either high stress or tremendous demotivation or both. Now with this small change, I am relatively stress free and moving forward at a considerable pace.
 
-Assuming the current delay is the last one, the new project will be out in the coming week. Keep an eye out for it. And while you wait, go checkout my first project, [JobLead](https://www.joblead.io). It is a job search website that finds jobs matching a given resume.
+Assuming the current delay is the last one, the new project will be out in the coming week. Keep an eye out for it. And while you wait, go checkout my first project, [JobLead](https://joblead.vipulvpatil.dev). It is a job search website that finds jobs matching a given resume.
 
 ### Tell me what I missed
 

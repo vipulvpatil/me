@@ -1,7 +1,7 @@
 ---
 title: 'The idea, the plan and the journey so far'
 description: >-
-  In my previous post I talked about my last project joblead.io. It was a small
+  In my previous post I talked about my last project joblead. It was a small
   project in itself, but it was part of something bigger. I had…
 date: '2023-03-07T06:56:27.200Z'
 categories: []
@@ -11,7 +11,7 @@ draft: false
 url: /blog/the-idea-the-plan-and-the-journey-so-far-f46ffb8db9f5
 ---
 
-In my [previous post]({{< relref "/blog/old/jumping-on-the-ai-bandwagon-d37bc777e456" >}}) I talked about my last project [joblead.io](https://joblead.io). It was a small project in itself, but it was part of something bigger. I had been toying with the idea of taking a break as early as mid 2020. The world was on a lockdown that showed no signs of ending and it seemed like a good time to take the plunge. While I was attempting to implement my idea, my employer of the time announced an IPO and I put a pin in my idea. Finally towards the end of 2022, I pulled the trigger.
+In my [previous post]({{< relref "/blog/old/jumping-on-the-ai-bandwagon-d37bc777e456" >}}) I talked about my last project [joblead](https://joblead.vipulvpatil.dev). It was a small project in itself, but it was part of something bigger. I had been toying with the idea of taking a break as early as mid 2020. The world was on a lockdown that showed no signs of ending and it seemed like a good time to take the plunge. While I was attempting to implement my idea, my employer of the time announced an IPO and I put a pin in my idea. Finally towards the end of 2022, I pulled the trigger.
 
 ### The origins of the idea
 
@@ -45,7 +45,7 @@ These keep changing as I continue my work but so far they seem to provide an app
 
 ### The journey so far
 
-As of this writing, my [first project](https://www.joblead.io) is chugging along slowly. On an average day with no marketing it tends to get around 5 new users. Every once in a while, I am able to bump it up to 20 by discussing it in various forums. Though those are not great numbers, the real key outcome of this have been the following
+As of this writing, my [first project](https://joblead.vipulvpatil.dev) is chugging along slowly. On an average day with no marketing it tends to get around 5 new users. Every once in a while, I am able to bump it up to 20 by discussing it in various forums. Though those are not great numbers, the real key outcome of this have been the following
 
 1.  Exposure to various tools that I was aware of, but had not used.
 2.  A deeper understanding of OpenAi.
