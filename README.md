@@ -23,7 +23,7 @@ npm install -D postcss-cli autoprefixer
 
 For code changes check [this](https://github.com/vipulvpatil/me/commit/postcss)
 
-* Finally I added tailwind to eht project.
+* Finally I added tailwind to the project.
 
 ```
 npm install -D tailwindcss
