@@ -122,6 +122,16 @@ h2 {
   padding-bottom: 1rem;
 }
 
+.fplquote {
+  border-left: 10px solid var(--color-primary);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.fplquoter {
+  margin-bottom: 10px;
+}
+
 main {
   min-height: calc(100vh - 760px) !important;
 }
@@ -143,7 +153,7 @@ a:link.title {
   text-decoration: none !important;
 }
 
-.list-element > a > h3 {
+h3 {
   font-weight: bold;
 }
 

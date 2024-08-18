@@ -2,13 +2,27 @@
   <main aria-role="main">
     <header class="homepage-header post">
       <h1 class="mt-0">{{ .Title }}</h1>
-      <h2 class="mt-0 pb-0">{{ .Params.role }}</h2>
-      <h3 class="semi-contrast mt-0 pt-0">{{ .Params.duration }}</h3>
     </header>
     <div class="homepage-content post">
       {{ $dataFile := strings.Replace .Title " " "_" -1 }}
-      {{ index .Site.Data.podcasts $dataFile }}
+      {{ $data := index .Site.Data.podcasts $dataFile }}
+      {{ partial "partials/players.html" (index $data "players") }}
     </div>
     {{ partial "top3blogs.html" . }}
   </main>
 {{ end }}
+
+{{- define "partials/players.html" }}
+  <div class="pb-4">
+    <h2>Players discussed</h2>
+    {{ range . }}
+      <div class="py-4">
+        <h3>{{ index . "web_name" }}</h3>
+        {{ range (index . "summary") }}
+        <div class="fplquote">{{ index . "text" }}</div>
+        <div class="fplquoter">{{ index . "speaker" }}</div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{- end }}
