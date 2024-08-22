@@ -20,7 +20,7 @@
       <div class="py-1">
         <h3>{{ index . "web_name" }}</h3>
         {{ range (index . "tags") }}
-          <div class="tag">{{ . }}</div>
+          <div class="tag {{ . }}">{{ . }}</div>
         {{ end }}
         {{ range (index . "summary") }}
           <div class="py-1">

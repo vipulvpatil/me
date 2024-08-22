@@ -21,6 +21,8 @@
     --color-secondary: var(--color-gray);
     --color-background: var(--color-black);
   }
+
+  --color-tag-top: #
 }
 
 body {
@@ -120,26 +122,6 @@ h2 {
   font-size: 1.8rem;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-}
-
-.fplquote {
-  border-left: 10px solid var(--color-primary);
-  padding: 5px;
-  margin-top: 10px;
-}
-
-.fplquoter {
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-.tag {
-  display: inline;
-  border: 1px solid var(--color-gray);
-  border-radius: 8px;
-  background-color: var(--color-gray);
-  color: var(--color-white);
-  padding: 0 6px;
 }
 
 main {

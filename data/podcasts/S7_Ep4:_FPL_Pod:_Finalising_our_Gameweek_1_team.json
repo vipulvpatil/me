@@ -30,7 +30,8 @@
         }
       ],
       "tags": [
-        "recommended"
+        "recommended",
+        "budget"
       ],
       "web_name": "Bob"
     },
@@ -64,7 +65,8 @@
         }
       ],
       "tags": [
-        "recommended"
+        "recommended",
+        "budget"
       ],
       "web_name": "Garnacho"
     },
@@ -81,7 +83,7 @@
         }
       ],
       "tags": [
-        "avoid"
+        "top"
       ],
       "web_name": "M.Salah"
     },

@@ -1,0 +1,38 @@
+:root {
+  --color-tag-top: #078923;
+  --color-tag-recommended: #002da9;
+  --color-tag-avoid: #9e0505;
+  --color-tag-budget: #b9af00;
+}
+
+.fplquote {
+  border-left: 10px solid var(--color-primary);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.fplquoter {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.tag {
+  display: inline;
+  border-radius: 8px;
+  background-color: var(--color-gray);
+  color: var(--color-white);
+  padding: 0 6px;
+}
+
+.tag.top {
+  background-color: var(--color-tag-top);
+}
+.tag.recommended {
+  background-color: var(--color-tag-recommended);
+}
+.tag.avoid {
+  background-color: var(--color-tag-avoid);
+}
+.tag.budget {
+  background-color: var(--color-tag-budget);
+}
