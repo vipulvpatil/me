@@ -13,16 +13,20 @@
 {{ end }}
 
 {{- define "partials/players.html" }}
-  <div class="pb-4">
+  <div class="pb-0">
     <h2>Players discussed</h2>
+    <hr>
     {{ range . }}
-      <div class="py-4">
+      <div class="py-1">
         <h3>{{ index . "web_name" }}</h3>
         {{ range (index . "summary") }}
-        <div class="fplquote">{{ index . "text" }}</div>
-        <div class="fplquoter">{{ index . "speaker" }}</div>
+          <div class="py-1">
+            <div class="fplquote">{{ index . "text" }}</div>
+            <div class="fplquoter">{{ index . "speaker" }}</div>
+          </div>
         {{ end }}
       </div>
+      <hr>
     {{ end }}
   </div>
 {{- end }}
