@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "name": "Cole Palmer",
+      "summary": [
+        {
+          "speaker": "Julien Laurens",
+          "text": "Palmer's price was initially low at the start because nobody expected him to have that kind of impact and numbers."
+        },
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Palmer was brilliant last season and was a shining light. I think you have to decide if you're going to capture him for the first few weeks."
+        }
+      ],
+      "tags": [
+        "recommended"
+      ],
+      "web_name": "Palmer"
+    },
+    {
+      "name": "Bukayo Saka",
+      "summary": [
+        {
+          "speaker": "Julien Laurens",
+          "text": "Saka has the momentum from his Euros performance and is expected to be a key player."
+        },
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Saka is a premium pick and can deliver big points."
+        }
+      ],
+      "tags": [
+        "top"
+      ],
+      "web_name": "Saka"
+    },
+    {
+      "name": "Erling Haaland",
+      "summary": [
+        {
+          "speaker": "Sam Bonfield",
+          "text": "You cannot start the season without Haaland in your team. He's a massive priority."
+        },
+        {
+          "speaker": "Julien Laurens",
+          "text": "You cannot not have him, he’s the most expensive player ever in FPL for a reason."
+        }
+      ],
+      "tags": [
+        "top"
+      ],
+      "web_name": "Haaland"
+    },
+    {
+      "name": "Foden",
+      "summary": [
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Foden is a great option for getting into City's attack."
+        },
+        {
+          "speaker": "Julien Laurens",
+          "text": "Foden could be a good investment if he performs well in the pre-season."
+        }
+      ],
+      "tags": [
+        "recommended"
+      ],
+      "web_name": "Foden"
+    },
+    {
+      "name": "Saliba",
+      "summary": [
+        {
+          "speaker": "Julien Laurens",
+          "text": "Saliba had a fantastic Euros and is expected to be a key defender this season."
+        },
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Saliba is a must-have at his price point, given his performance."
+        }
+      ],
+      "tags": [
+        "top"
+      ],
+      "web_name": "Saliba"
+    },
+    {
+      "name": "Richarlison",
+      "summary": [
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Richarlison could be a valuable player if he starts regularly."
+        },
+        {
+          "speaker": "Julien Laurens",
+          "text": "He's an option to consider if he secures a place in Spurs' starting lineup."
+        }
+      ],
+      "tags": [
+        "unsure"
+      ],
+      "web_name": "Richarlison"
+    },
+    {
+      "name": "Kai Havertz",
+      "summary": [
+        {
+          "speaker": "Julien Laurens",
+          "text": "Havertz is transitioning from forward to midfielder, making him a potentially versatile pick."
+        },
+        {
+          "speaker": "Sam Bonfield",
+          "text": "If he starts regularly, Havertz could provide good value in the midfield."
+        }
+      ],
+      "tags": [
+        "recommended"
+      ],
+      "web_name": "Havertz"
+    },
+    {
+      "name": "Isak",
+      "summary": [
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Isak is expected to be a strong attacking asset this season."
+        },
+        {
+          "speaker": "Kelly Somers",
+          "text": "If Newcastle's fixtures look good, Isak could be a great pickup."
+        }
+      ],
+      "tags": [
+        "recommended"
+      ],
+      "web_name": "Isak"
+    },
+    {
+      "name": "João Pedro",
+      "summary": [
+        {
+          "speaker": "Sam Bonfield",
+          "text": "He could be an interesting pick based on his pre-season performance."
+        },
+        {
+          "speaker": "Kelly Somers",
+          "text": "There’s potential for him to be utilized in an attacking role."
+        }
+      ],
+      "tags": [
+        "unsure"
+      ],
+      "web_name": "João Pedro"
+    },
+    {
+      "name": "Kieran Trippier",
+      "summary": [
+        {
+          "speaker": "Sam Bonfield",
+          "text": "Trippier remains a valuable fantasy asset due to his attacking potential."
+        },
+        {
+          "speaker": "Julien Laurens",
+          "text": "At 6.5 million, he offers great value if he backs up his attacking output."
+        }
+      ],
+      "tags": [
+        "recommended"
+      ],
+      "web_name": "Trippier"
+    }
+  ],
+  "teams": [
+    {
+      "attack": [
+        "Haaland",
+        "Saka",
+        "Palmer"
+      ],
+      "defense": [
+        "Saliba",
+        "Trippier"
+      ],
+      "goalkeepers": [
+        "Flecken",
+        "Sánchez"
+      ],
+      "midfield": [
+        "Foden",
+        "Isak"
+      ],
+      "owner": "Kelly Somers"
+    },
+    {
+      "attack": [
+        "Isak",
+        "Richarlison",
+        "Mateta"
+      ],
+      "defense": [
+        "Saliba",
+        "Davis"
+      ],
+      "goalkeepers": [
+        "Flecken",
+        "Sánchez"
+      ],
+      "midfield": [
+        "Saka",
+        "Gordon",
+        "Palmer"
+      ],
+      "owner": "Sam Bonfield"
+    }
+  ]
+}
