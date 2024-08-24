@@ -4,10 +4,12 @@
       <header>
         <h1>{{ .Title }}</h1>
       </header>
+      <div class="mt-0 mb-4">
+        {{ .Content }}
+      </div>
       {{ range .Pages }}
         {{ partial "fplpodcastitem.html" .}}
       {{ end }}
-      {{ .Content }}
       <div class="mt-24"></div>
     </article>
     {{ partial "top3blogs.html" . }}

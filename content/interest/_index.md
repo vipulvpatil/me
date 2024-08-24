@@ -8,6 +8,10 @@ draft = false
 
 - [Arsenal F.C.](https://www.arsenal.com/)
 
+## Favorite Podcast
+
+- [FPL Podcast](/fpl)
+
 ## Favorite Video Games
 
 - [Football Manager 2024](https://www.footballmanager.com/)

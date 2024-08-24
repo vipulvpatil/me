@@ -4,6 +4,7 @@
       <h1 class="mt-0">{{ .Title }}</h1>
     </header>
     <div class="homepage-content post">
+      <a href={{ "/fpl" | relURL }}>Back to all FPL</a>
       {{ $dataFile := strings.Replace .Title " " "_" -1 }}
       {{ $data := index .Site.Data.podcasts $dataFile }}
       {{ partial "partials/players.html" (index $data "players") }}
