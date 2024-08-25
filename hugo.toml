@@ -4,7 +4,7 @@ title = 'Vipul V Patil'
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-MEASUREMENT_ID'
+    ID = 'G-00WGRM6QLY'
 
 [params]
   mediumRoot = 'https://vipulvpatil.medium.com'
