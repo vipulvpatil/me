@@ -2,6 +2,10 @@ baseURL = 'https://vipulvpatil.dev/'
 languageCode = 'en-us'
 title = 'Vipul V Patil'
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-MEASUREMENT_ID'
+
 [params]
   mediumRoot = 'https://vipulvpatil.medium.com'
   [params.controller]
