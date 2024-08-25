@@ -103,7 +103,7 @@
       "summary": [
         {
           "speaker": "Sam Bonfield",
-          "text": "I had Konza in my team."
+          "text": "I had Konsa in my team."
         },
         {
           "speaker": "Julien Laurens",
@@ -116,30 +116,30 @@
       "web_name": "Konsa"
     },
     {
-      "name": "Madsen",
+      "name": "Maatsen",
       "summary": [
         {
           "speaker": "Julien Laurens",
-          "text": "I want Madsen more than Konsa."
+          "text": "I want Maatsen more than Konsa."
         }
       ],
       "tags": [
         "recommended"
       ],
-      "web_name": "Madsen"
+      "web_name": "Maatsen"
     },
     {
-      "name": "Geahy",
+      "name": "Guehi",
       "summary": [
         {
           "speaker": "Sam Bonfield",
-          "text": "I had Mark Gehy in my team."
+          "text": "I had Mark Guehi in my team."
         }
       ],
       "tags": [
         "unsure"
       ],
-      "web_name": "Geahy"
+      "web_name": "Guehi"
     },
     {
       "name": "Winks",

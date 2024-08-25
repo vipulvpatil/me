@@ -99,7 +99,7 @@
       "tags": [
         "unsure"
       ],
-      "web_name": "Poro"
+      "web_name": "Porro"
     },
     {
       "name": "Danny Welbeck",
@@ -151,23 +151,6 @@
         "unsure"
       ],
       "web_name": "Watkins"
-    },
-    {
-      "name": "Erling Haaland",
-      "summary": [
-        {
-          "speaker": "Sam Bonfield",
-          "text": "The only way is up... if you start at the bottom."
-        },
-        {
-          "speaker": "Julien Laurens",
-          "text": "Haaland at home against Ipswich...It's a game you would expect him to score."
-        }
-      ],
-      "tags": [
-        "recommended"
-      ],
-      "web_name": "Haaland"
     },
     {
       "name": "Ivan Toney",
