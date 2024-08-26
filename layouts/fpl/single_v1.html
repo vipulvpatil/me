@@ -5,6 +5,7 @@
     </header>
     <div class="homepage-content post">
       <a href={{ "/fpl" | relURL }}>Back to all FPL</a>
+      This is old
       {{ $dataFile := strings.Replace .Title " " "_" -1 }}
       {{ $data := index .Site.Data.podcasts $dataFile }}
       {{ partial "partials/players.html" (index $data "players") }}
@@ -18,18 +19,17 @@
     <h2>Players discussed</h2>
     <hr>
     {{ range . }}
-      <div class="py-4">
+      <div class="py-1">
         <h3>{{ index . "web_name" }}</h3>
         {{ range (index . "tags") }}
           <div class="tag {{ . }}">{{ . }}</div>
         {{ end }}
-        <div class="py-4">
-          {{ range (index . "summaries") }}
-            <div class="py-1">
-              {{ . }}
-            </div>
-          {{ end }}
-        </div>
+        {{ range (index . "summary") }}
+          <div class="py-1">
+            <div class="fplquote">{{ index . "text" }}</div>
+            <div class="fplquoter">{{ index . "speaker" }}</div>
+          </div>
+        {{ end }}
       </div>
       <hr>
     {{ end }}

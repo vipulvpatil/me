@@ -3,17 +3,7 @@
   --color-tag-recommended: #002da9;
   --color-tag-avoid: #9e0505;
   --color-tag-budget: #b9af00;
-}
-
-.fplquote {
-  border-left: 10px solid var(--color-primary);
-  padding: 5px;
-  margin-top: 10px;
-}
-
-.fplquoter {
-  margin-bottom: 10px;
-  font-style: italic;
+  --color-tag-differential: #f4a701;
 }
 
 .tag {
@@ -35,4 +25,7 @@
 }
 .tag.budget {
   background-color: var(--color-tag-budget);
+}
+.tag.differential {
+  background-color: var(--color-tag-differential);
 }
