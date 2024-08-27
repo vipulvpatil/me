@@ -7,13 +7,13 @@
       <a href={{ "/fpl" | relURL }}>Back to all FPL</a>
       {{ $dataFile := strings.Replace .Title " " "_" -1 }}
       {{ $data := index .Site.Data.podcasts $dataFile }}
-      {{ partial "partials/players.html" (index $data "players") }}
+      {{ partial "partials/players_v1.html" (index $data "players") }}
     </div>
     {{ partial "top3blogs.html" . }}
   </main>
 {{ end }}
 
-{{- define "partials/players.html" }}
+{{- define "partials/players_v1.html" }}
   <div class="pb-0">
     <h2>Players discussed</h2>
     <hr>

@@ -15,6 +15,17 @@
   margin-right: 6px;
 }
 
+.fplquote {
+  border-left: 10px solid var(--color-primary);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.fplquoter {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
 .tag.top {
   background-color: var(--color-tag-top);
 }
