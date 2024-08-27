@@ -12,6 +12,7 @@
   background-color: var(--color-gray);
   color: var(--color-white);
   padding: 0 6px;
+  margin-right: 6px;
 }
 
 .tag.top {
