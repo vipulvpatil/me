@@ -1,0 +1,121 @@
+{
+  "players": [
+    {
+      "summaries": [
+        "Kelly Somers: It was a double transfer that I wasn't planning, but I got Joao Pedro in.",
+        "Sam Bonfield: Joao Pedro was heavily bought in last game week, but he missed out through injury."
+      ],
+      "tags": ["unsure"],
+      "web_name": "Joao Pedro"
+    },
+    {
+      "summaries": [
+        "Kelly Somers: I thought he would play a bit more in midfield, but he didn't deliver.",
+        "Julien Laurens: Havertz played between being a proper nine and an underguard role."
+      ],
+      "tags": ["unsure"],
+      "web_name": "Kai Havertz"
+    },
+    {
+      "summaries": [
+        "Kelly Somers: We were intrigued to see how Salah would perform against Bournemouth.",
+        "Sam Bonfield: If I had Salah, I definitely would have captained him this week."
+      ],
+      "tags": ["top"],
+      "web_name": "Mohamed Salah"
+    },
+    {
+      "summaries": [
+        "Julien Laurens: Haaland is non-negotiable in your team and a trusted option this week.",
+        "Sam Bonfield: It's hard to call the captaincy for Haaland this week due to the fixture against Arsenal."
+      ],
+      "tags": ["top"],
+      "web_name": "Erling Haaland"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: Vardy is an interesting option with upcoming fixtures.",
+        "Julien Laurens: Vardy could capitalize on Leicester's favorable run of fixtures."
+      ],
+      "tags": [
+        "recommended"
+      ],
+      "web_name": "Jamie Vardy"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: I think Ollie Watkins is a great fit for the squad.",
+        "Julien Laurens: If fit, I think Watkins is a solid choice as well due to his form."
+      ],
+      "tags": ["recommended", "top"],
+      "web_name": "Ollie Watkins"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: Dominic Calvert-Lewin has been scoring despite Everton's struggles.",
+        "Julien Laurens: I'm not sure about Calvert-Lewin in the long-term though."
+      ],
+      "tags": ["recommended"],
+      "web_name": "Dominic Calvert-Lewin"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: I really like Liam Delap as a budget option this week.",
+        "Sam Bonfield: He's created chances and is top for expected goals at Ipswich."
+      ],
+      "tags": ["budget", "differential"],
+      "web_name": "Liam Delap"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: Mateta could be a good choice given his share of penalty responsibility.",
+        "Julien Laurens: Mateta could score as Brighton continues to create chances."
+      ],
+      "tags": ["recommended"],
+      "web_name": "Mateta"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: When you look at the midfield from Spurs, it's quite difficult to find space for a Spurs player.",
+        "Sam Bonfield: I think if you did want a Spurs attacker, Kulisiewski made the biggest difference when he came on."
+      ],
+      "tags": [
+        "differential"
+      ],
+      "web_name": "Dejan Kulusevski"
+    },
+    {
+      "summaries": [
+        "Sam Bonfield: I'm looking at Isak and kinda can't decide if he'll be fit for the weekend due to his eye injury.",
+        "Julien Laurens: His form looked better despite not scoring last week."
+      ],
+      "tags": [
+        "unsure"
+      ],
+      "web_name": "Alexander Isak"
+    },
+    {
+      "summaries": [
+        "Julien Laurens: I brought Nico Jackson in because the Chelsea fixtures are still good, but I am cautious about his consistency.",
+        "Julien Laurens: After bringing him in, I am now worried because his playtime is uncertain."
+      ],
+      "tags": [
+        "unsure"
+      ],
+      "web_name": "Nico Jackson"
+    },
+    {
+      "summaries": [
+        "Julien Laurens: Rashford is slowly getting back to form, and I think he can score again soon.",
+        "Sam Bonfield: He might be risky now, but if he gets the momentum back, he could be valuable."
+      ],
+      "tags": ["recommended", "unsure"],
+      "web_name": "Marcus Rashford"
+    }
+  ],
+  "speakers": [
+    "Kelly Somers",
+    "Sam Bonfield",
+    "Julien Laurens"
+  ]
+}
