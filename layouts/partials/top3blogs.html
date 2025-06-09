@@ -1,6 +1,7 @@
 <div class="mt-24"></div>
 <hr>
 <h2>Recent blog posts</h2>
+{{ partial "subscribe/form.html" . }}
 {{ with .Site }}
   {{ range ( where .RegularPages.ByDate.Reverse "Type" "blog" ) | first 3 }}
     {{ partial "bloglistitem.html" . }}
