@@ -47,10 +47,6 @@ title = 'Vipul V Patil'
     name = 'Work'
     pageRef = '/work'
     weight = 30
-  [[menus.main]]
-    name = 'Interests'
-    pageRef = '/interest'
-    weight = 40
 
 [markup]
   [markup.goldmark]
