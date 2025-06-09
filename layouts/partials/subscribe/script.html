@@ -30,4 +30,12 @@
     });
   }
   form.addEventListener("submit", handleSubmit)
+
+  async function toggleSubscribePopup() {
+    if (document.getElementById('subscribePopup').classList.contains('active')) {
+      document.getElementById('subscribePopup').classList.remove('active');
+    } else {
+      document.getElementById('subscribePopup').classList.add('active');
+    }
+  }
 </script>
