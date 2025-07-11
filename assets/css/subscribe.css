@@ -1,33 +1,33 @@
-.subscribe-button {
-  padding: 0.5rem 1rem;
+.subscribe-button-small {
+  padding: 0rem 0.5rem;
   background-color: rgba(219, 7, 7, 0.78);
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 0.25rem;
 }
 
-.subscribe-button:hover {
+.subscribe-button-small:hover {
   background-color: rgba(219, 7, 7, 0.58);
 }
 
 .subscribe-popup {
   position: fixed;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2);
   display: none;
-  align-items: center;
+  align-items: end;
   justify-content: center;
 }
 
 .subscribe-popup.active {
-  display: flex;
+  display: flex
 }
 
 .subscribe-popup-content {
-  background-color: white;
   padding: 1.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   position: relative;
 }
 

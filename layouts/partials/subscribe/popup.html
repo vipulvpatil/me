@@ -1,5 +1,5 @@
-<div id="subscribePopup" class="subscribe-popup fixed inset-0 bg-black bg-opacity-50 items-center justify-center">
-  <div class="subscribe-popup-content w-full max-w-lg mx-4">
+<div id="subscribePopup" class="subscribe-popup">
+  <div class="subscribe-popup-content py-2">
     <form id="my-form" action="https://formspree.io/f/mjkryaqe" method="POST" class="flex flex-col md:flex-row gap-2 items-start md:items-center">
       <input
         type="email"
@@ -13,14 +13,14 @@
       >
         Subscribe
       </button>
+      <button
+        type="button"
+        onclick="toggleSubscribePopup()"
+        class="px-4 py-2 bg-white text-black border border-gray-300 rounded hover:bg-gray-100 font-semibold"
+      >
+        Close
+      </button>
       <p id="my-form-status" class="text-sm text-gray-600"></p>
     </form>
-    <div class="mb-8"></div>
-    <button
-      onclick="toggleSubscribePopup()"
-      class="subscribe-close absolute top-2 right-2 text-xl"
-    >
-      ✕
-    </button>
   </div>
 </div>
