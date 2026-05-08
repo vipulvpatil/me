@@ -4,6 +4,8 @@ date = 2026-05-08T00:00:00Z
 draft = false
 +++
 
+![A system design whiteboard diagram for a video platform](whiteboard.webp)
+
 I started my engineering career in 2008 writing Flash games in ActionScript 3.0. Over time I moved across the stack and eventually settled into backend engineering. As a senior backend engineer at Coinbase, I worked on distributed systems, payments, async workflows, and infrastructure projects of varying complexity. I assumed that enough real-world experience would naturally translate into clearing system design interviews. It didn't.
 
 The problem was not lack of experience. The problem was my inability to structure and communicate my thinking clearly under interview pressure.
